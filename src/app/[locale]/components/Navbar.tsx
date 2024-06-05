@@ -26,7 +26,7 @@ export const Navbar = () => {
           <Link href={"#projects"}>Projects</Link>
           <Link href={"#contact"}>Contact</Link>
         </ul>
-        <div className="flex gap-5 ml-5">
+        <div className="flex ml-5">
           <SwitchTheme />
           <SwitchLanguage />
         </div>
