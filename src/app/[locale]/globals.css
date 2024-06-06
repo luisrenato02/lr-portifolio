@@ -3,11 +3,21 @@
 @tailwind utilities;
 
 main {
-  @apply p-20; /* Aplica padding de 5rem (20 * 0.25rem = 5rem) */
+  @apply px-20 mt-44;
 }
 
+@media (max-width: 1024px) {
+  main {
+    @apply mt-40;
+  }
+}
+@media (max-width: 768px) {
+  main {
+    @apply mt-28;
+  }
+}
 @media (max-width: 640px) {
   main {
-    @apply p-12;
+    @apply p-12 mt-20;
   }
 }

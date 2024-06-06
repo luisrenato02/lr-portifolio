@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Navbar } from "./components/Navbar";
+import { About } from "./components/About";
 
 export default function Home() {
   const t = useTranslations("Index");
@@ -8,8 +9,7 @@ export default function Home() {
     <>
       <Navbar />
       <main>
-        <div className="h-[2000px]"></div>
-        <h1 className="bg-red-500 dark:bg-blue-500">{t("title")}</h1>
+        <About />
       </main>
     </>
   );
