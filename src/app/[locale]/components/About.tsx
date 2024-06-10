@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../../../../public/logo.svg";
+import LuisRenato from "../../../../public/LuisRenato.jpeg";
 import wpp from "../../../../public/wpp.png";
 import download from "../../../../public/download.png";
 import { TabsAbout } from "./TabsAbout";
@@ -9,9 +9,13 @@ export const About = () => {
   return (
     <>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 place-items-center">
-        <div className="md:col-span-1 border-2 dark:border-slate-700  p-4 flex justify-center rounded-full xl:w-80 xl:h-80 lg:w-64 lg:h-64 md:w-60 md:h-60 w-80 h-80 align-middle">
-          <Image width={250} height={250} src={logo} alt={""} />
-        </div>
+        <Image
+          className="md:col-span-1 flex justify-center rounded-full xl:w-80 xl:h-80 lg:w-64 lg:h-64 md:w-60 md:h-60  w-80 h-80 object-cover align-middle border-2 dark:border-slate-700"
+          width={250}
+          height={250}
+          src={LuisRenato}
+          alt={""}
+        />
         <div className="md:col-span-2 p-4 text-gray-700 dark:text-gray-300">
           <h1 className="sm:text-3xl md:text-4xl text-2xl mb-6 text-center md:text-left">
             Olá, me chamo Luís Renato!
