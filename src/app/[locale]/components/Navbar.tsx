@@ -1,16 +1,17 @@
 "use client";
+import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
 import Logo from "../../../../public/logo.svg";
 import hamburguer from "../../../../public/hamburger.png";
 import { SwitchTheme } from "./SwitchTheme";
-import Link from "next/link";
 import { SwitchLanguage } from "./SwitchLanguage";
-import { useState } from "react";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState("hidden");
+
   return (
-    <div className="flex fixed w-full flex-col md:flex-row-reverse justify-between items-center inset-x-0 top-0">
+    <div className="flex fixed w-full flex-col md:flex-row-reverse justify-between items-center inset-x-0 top-0  z-10">
       <nav className="bg-white dark:bg-slate-900 flex w-full justify-between md:py-10 py-4 sm:px-20 px-12 shadow-sm border-b-2 dark:border-slate-700 items-center">
         <Image src={Logo} alt="Logo" width={80} height={80} />
 

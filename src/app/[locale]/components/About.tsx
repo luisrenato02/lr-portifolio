@@ -42,7 +42,6 @@ export const About = () => {
         </div>
       </div>
       <TabsAbout />
-      {/* Tabs */}
     </>
   );
 };
