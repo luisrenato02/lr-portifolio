@@ -3,6 +3,7 @@ import logo from "../../../../public/logo.svg";
 import wpp from "../../../../public/wpp.png";
 import download from "../../../../public/download.png";
 import { TabsAbout } from "./TabsAbout";
+import { Certifications } from "./Certifications";
 
 export const About = () => {
   return (
@@ -42,6 +43,7 @@ export const About = () => {
         </div>
       </div>
       <TabsAbout />
+      <Certifications />
     </>
   );
 };
