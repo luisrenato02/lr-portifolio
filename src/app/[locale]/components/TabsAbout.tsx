@@ -59,24 +59,7 @@ export const TabsAbout = () => {
       <div>
         {selectedTab === 1 && <Expirience />}
         {selectedTab === 2 && <Education />}
-        {selectedTab === 3 && (
-          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-5">
-            <Badge color={"orange"} title={"HTML"} />
-            <Badge color={"blue"} title={"CSS"} />
-            <Badge color={"yellow"} title={"JavaScript"} />
-            <Badge color={"blue"} title={"TypeScript"} />
-            <Badge color={"indigo"} title={"React.js"} />
-            <Badge color={"sky"} title={"Next.js"} />
-            <Badge color={"green"} title={"Node.js"} />
-            <Badge color={"red"} title={"Nest.js"} />
-            <Badge color={"gray"} title={"Git"} />
-            <Badge color={"gray"} title={"SQL"} />
-            <Badge color={"purple"} title={"Prisma ORM"} />
-            <Badge color={"blue"} title={"Mantine"} />
-            <Badge color={"blue"} title={"Tailwind"} />
-            <Badge color={"emerald"} title={"StyledComponents"} />
-          </div>
-        )}
+        {selectedTab === 3 && <Badge />}
       </div>
     </>
   );
