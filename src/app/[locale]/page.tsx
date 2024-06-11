@@ -1,6 +1,10 @@
 import { useTranslations } from "next-intl";
 import { Navbar } from "./components/Navbar";
 import { About } from "./components/About";
+import Footer from "./components/Footer";
+import { TabsAbout } from "./components/TabsAbout";
+import { Certifications } from "./components/Certifications";
+import { Projects } from "./components/Projects";
 
 export default function Home() {
   const t = useTranslations("Index");
@@ -10,7 +14,14 @@ export default function Home() {
       <Navbar />
       <main>
         <About />
+        <TabsAbout />
+        <Certifications />
+        <Projects />
+        <h2 className="text-xl flex place-content-center mb-4 font-bold">
+          Contacts
+        </h2>
       </main>
+      <Footer />
     </>
   );
 }

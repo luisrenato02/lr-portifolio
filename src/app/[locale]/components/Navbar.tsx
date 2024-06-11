@@ -3,9 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
 import Logo from "../../../../public/logo.svg";
-import hamburguer from "../../../../public/hamburger.png";
 import { SwitchTheme } from "./SwitchTheme";
 import { SwitchLanguage } from "./SwitchLanguage";
+import { Menu } from "lucide-react";
 
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState("hidden");
@@ -27,14 +27,12 @@ export const Navbar = () => {
             <SwitchLanguage />
           </div>
         </div>
-        <div className="flex gap-5 md:hidden">
+        <div className="flex items-center gap-5 md:hidden">
           <SwitchTheme />
-
-          <Image
-            width={30}
-            height={30}
-            src={hamburguer}
-            alt="hamburg"
+          <Menu
+            color={"#374151"}
+            width={3}
+            height={3}
             className="flex md:hidden p-1  hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg cursor-pointer w-auto"
             onClick={() => setIsOpen(isOpen === "hidden" ? "block" : "hidden")}
           />

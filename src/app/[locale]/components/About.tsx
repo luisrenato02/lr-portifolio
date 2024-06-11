@@ -9,7 +9,10 @@ import { Projects } from "./Projects";
 export const About = () => {
   return (
     <>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 place-items-center">
+      <section
+        id="about"
+        className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 place-items-center"
+      >
         <Image
           className="md:col-span-1 flex justify-center rounded-full xl:w-80 xl:h-80 lg:w-64 lg:h-64 md:w-60 md:h-60  w-80 h-80 object-cover align-middle border-2 dark:border-slate-700"
           width={250}
@@ -18,7 +21,7 @@ export const About = () => {
           alt={""}
         />
         <div className="md:col-span-2 p-4 text-gray-700 dark:text-gray-300">
-          <h1 className="sm:text-3xl md:text-4xl text-2xl mb-6 text-center md:text-left">
+          <h1 className="sm:text-3xl md:text-4xl text-2xl mb-6 text-center md:text-left text-gray-700 dark:text-gray-100">
             Olá, me chamo Luís Renato!
           </h1>
           <h2 className="sm:text-2xl md:text-3xl text-1xl mb-1">About me</h2>
@@ -46,10 +49,7 @@ export const About = () => {
             </button>
           </div>
         </div>
-      </div>
-      <TabsAbout />
-      <Certifications />
-      <Projects />
+      </section>
     </>
   );
 };
