@@ -15,7 +15,7 @@ import desenvolvimento_software from "../../../../public/desenvolvimento_softwar
 
 export const Certifications = () => {
   return (
-    <div className="mt-20 flex flex-col mb-96">
+    <div className="mt-40 flex flex-col mb-4mt-40">
       <h2 className="text-lg flex justify-center mb-4">Certifications</h2>
       <div className="relative flex justify-center items-center">
         <div className="absolute w-full h-12 bg-sky-200 dark:bg-sky-900"></div>

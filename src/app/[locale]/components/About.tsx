@@ -4,6 +4,7 @@ import wpp from "../../../../public/wpp.png";
 import download from "../../../../public/download.png";
 import { TabsAbout } from "./TabsAbout";
 import { Certifications } from "./Certifications";
+import { Projects } from "./Projects";
 
 export const About = () => {
   return (
@@ -48,6 +49,7 @@ export const About = () => {
       </div>
       <TabsAbout />
       <Certifications />
+      <Projects />
     </>
   );
 };
