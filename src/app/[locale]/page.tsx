@@ -7,7 +7,7 @@ import { Certifications } from "./components/Certifications";
 import { Projects } from "./components/Projects";
 
 export default function Home() {
-  const t = useTranslations("Index");
+  const t = useTranslations("Contact");
 
   return (
     <>
@@ -18,7 +18,7 @@ export default function Home() {
         <Certifications />
         <Projects />
         <h2 className="text-xl flex place-content-center mb-4 font-bold">
-          Contacts
+          {t("title")}
         </h2>
       </main>
       <Footer />

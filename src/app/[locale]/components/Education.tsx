@@ -1,90 +1,90 @@
+import { useTranslations } from "next-intl";
 import { SelectTab } from "./SelectTab";
 
 export const Education = () => {
+  const t = useTranslations("Tabs");
   return (
     <div>
       <ol className="relative border-s border-gray-200 dark:border-gray-700 z-0">
         <SelectTab
-          date="2017 - 2019"
-          title="ETEC - Escola Técnica Estadual de São Paulo"
-          description="Curso técnico em eletrônica integrado ao ensino médio."
+          date={t("education1.date")}
+          title={t("education1.title")}
+          description={t("education1.description")}
         />
 
         <SelectTab
-          date="2021 - 2023"
-          title="Universidade São Francisco"
-          description="Curso Superior de Tecnologia (CST), Analise e desenvolvimento de sistemas"
+          date={t("education2.date")}
+          title={t("education2.title")}
+          description={t("education2.description")}
         />
       </ol>
       <h3 className="text-lg mb-5 font-semibold text-gray-500 ">Courses</h3>
       <ol className="relative border-s border-gray-200 dark:border-gray-700 z-0">
         <SelectTab
-          date="2015 - 2017"
-          description="VIA BRASIL"
-          title="Tecnologia e Gestão"
+          date={t("education3.date")}
+          title={t("education3.title")}
+          description={t("education3.description")}
         />
         <SelectTab
-          date="Setembro de 2020 - 27 de Outubro de 2020"
-          description="GEEK UNIVERSITY"
-          title="Algoritmos e Lógica de Programação"
+          date={t("education4.date")}
+          title={t("education4.title")}
+          description={t("education4.description")}
         />
         <SelectTab
-          date="fevereiro de 2022"
-          description="CURSO EM VÍDEO"
-          title="MySQL"
+          date={t("education5.date")}
+          title={t("education5.title")}
+          description={t("education5.description")}
         />
         <SelectTab
-          date=" julho de 2022"
-          description="CURSO EM VÍDEO"
-          title="JavaScript"
+          date={t("education6.date")}
+          title={t("education6.title")}
+          description={t("education6.description")}
         />
         <SelectTab
-          date=" julho de 2022"
-          description="CURSO EM VÍDEO"
-          title="Html5 e ss3"
+          date={t("education7.date")}
+          title={t("education7.title")}
+          description={t("education7.description")}
         />
         <SelectTab
-          date="julho 2021"
-          description="UNIVERSIDADE SÃO FRANCISCO"
-          title="Suporte de ti"
+          date={t("education8.date")}
+          title={t("education8.title")}
+          description={t("education8.description")}
         />
         <SelectTab
-          date="julho 2021"
-          description="UNIVERSIDADE SÃO FRANCISCO"
-          title="Suporte de tecnologia da informação: hardware básico e
-Aplicações"
+          date={t("education9.date")}
+          title={t("education9.title")}
+          description={t("education9.description")}
         />
         <SelectTab
-          date="dezembro 2021"
-          description="UNIVERSIDADE SÃO FRANCISCO"
-          title="Programação de computadores"
+          date={t("education10.date")}
+          title={t("education10.title")}
+          description={t("education10.description")}
         />
         <SelectTab
-          date="julho 2022"
-          description="UNIVERSIDADE SÃO FRANCISCO"
-          title="Infraestrutura de redes e computadores"
+          date={t("education11.date")}
+          title={t("education11.title")}
+          description={t("education11.description")}
         />
         <SelectTab
-          date="julho 2022"
-          description="UNIVERSIDADE SÃO FRANCISCO"
-          title="Desenvolvimento de software"
+          date={t("education12.date")}
+          title={t("education12.title")}
+          description={t("education12.description")}
         />
         <SelectTab
-          date="julho 2022"
-          description="UNIVERSIDADE SÃO FRANCISCO"
-          title="Desenvolvimento de software: modelagem de banco de
-Dados e orientação a objetos"
+          date={t("education13.date")}
+          title={t("education13.title")}
+          description={t("education13.description")}
         />
         <SelectTab
-          date="dezembro 2022"
-          description="UNIVERSIDADE SÃO FRANCISCO"
-          title="Programação de computadores: soluções algorítmicas"
+          date={t("education14.date")}
+          title={t("education14.title")}
+          description={t("education14.description")}
         />
 
         <SelectTab
-          date="maio de 2024"
-          title="Curso de inglês para iniciantes - módulo 1: beginners - completo [VIP]"
-          description="CURSO EM VÍDEO"
+          date={t("education15.date")}
+          title={t("education15.title")}
+          description={t("education15.description")}
         />
       </ol>
     </div>

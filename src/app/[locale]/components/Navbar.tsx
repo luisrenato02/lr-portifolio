@@ -6,21 +6,25 @@ import Logo from "../../../../public/logo.svg";
 import { SwitchTheme } from "./SwitchTheme";
 import { SwitchLanguage } from "./SwitchLanguage";
 import { Menu } from "lucide-react";
+import { useTranslations } from "next-intl";
 
 export const Navbar = () => {
+  const t = useTranslations("Navbar");
   const [isOpen, setIsOpen] = useState("hidden");
 
   return (
     <div className="flex fixed w-full flex-col md:flex-row-reverse justify-between items-center inset-x-0 top-0  z-10">
       <nav className="bg-white dark:bg-slate-900 flex w-full justify-between md:py-10 py-4 sm:px-20 px-12 shadow-sm border-b-2 dark:border-slate-700 items-center">
-        <Image src={Logo} alt="Logo" width={80} height={80} />
+        <Link href={"#about"}>
+          <Image src={Logo} alt="Logo" width={80} height={80} />
+        </Link>
 
         <div className="hidden md:flex ">
           <ul className="flex font-bold sm:space-x-6 text-slate-400 dark:text-slate-300 hover:*:text-sky-500 dark:hover:*:text-sky-700 items-center text-xs xl:text-lg lg:text-base">
-            <Link href={"#about"}>About me</Link>
-            <Link href={"#certs"}>Certifications</Link>
-            <Link href={"#projects"}>Projects</Link>
-            <Link href={"#contact"}>Contact</Link>
+            <Link href={"#about"}>{t("aboutMe")}</Link>
+            <Link href={"#certs"}>{t("certifications")}</Link>
+            <Link href={"#projects"}>{t("projects")}</Link>
+            <Link href={"#contact"}>{t("contact")}</Link>
           </ul>
           <div className="flex ml-5 gap-1">
             <SwitchTheme />
@@ -31,8 +35,8 @@ export const Navbar = () => {
           <SwitchTheme />
           <Menu
             color={"#374151"}
-            width={3}
-            height={3}
+            width={30}
+            height={30}
             className="flex md:hidden p-1  hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg cursor-pointer w-auto"
             onClick={() => setIsOpen(isOpen === "hidden" ? "block" : "hidden")}
           />
@@ -50,7 +54,7 @@ export const Navbar = () => {
               className="block px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-600 dark:hover:text-white"
               href={"#about"}
             >
-              About me
+              {t("aboutMe")}
             </Link>
           </li>
           <li>
@@ -58,7 +62,7 @@ export const Navbar = () => {
               className="block px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-600 dark:hover:text-white"
               href={"#certs"}
             >
-              Certifications
+              {t("certifications")}
             </Link>
           </li>
           <li>
@@ -66,7 +70,7 @@ export const Navbar = () => {
               className="block px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-600 dark:hover:text-white"
               href={"#projects"}
             >
-              Projects
+              {t("projects")}
             </Link>
           </li>
           <li>
@@ -74,7 +78,7 @@ export const Navbar = () => {
               className="block px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-600 dark:hover:text-white"
               href={"#contact"}
             >
-              Contact
+              {t("contact")}
             </Link>
           </li>
           <li className="mt-2 pt-2 border-t dark:border-gray-400">

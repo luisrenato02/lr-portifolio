@@ -5,22 +5,22 @@ import menuluck from "../../../../public/menuluck.png";
 import costs from "../../../../public/costs.png";
 import sasInfoluck from "../../../../public/sasInfoluck.png";
 import { Project } from "./Project";
+import { useTranslations } from "next-intl";
 
 export const Projects = () => {
+  const t = useTranslations("Projects");
   return (
     <section id="projects" className="mt-40 mb-40">
       <h2 className="text-xl flex place-content-center mb-4 font-bold">
-        Projects
+        {t("title")}
       </h2>
       <div className="grid 2xl:grid-cols-2 grid-cols-1 gap-8">
         <Project
-          linkGithub="https://github.com/luisrenato02/rick-and-morty"
-          linkDemo="https://rick-and-morty-xgj4-luis-renatos-projects.vercel.app/"
+          linkGithub={t("project1.linkGithub")}
+          linkDemo={t("project1.linkDemo")}
           image={rickMorty}
-          project={"Rick and Morty Curious"}
-          description={
-            "App com informações sobre os personagens, capítulos e locais da série Rick and Morty, com intuito de fazer cacheamento de requisições."
-          }
+          project={t("project1.project")}
+          description={t("project1.description")}
         >
           <div className="flex gap-1 items-center flex-wrap">
             <span
@@ -46,12 +46,10 @@ export const Projects = () => {
           </div>
         </Project>
         <Project
-          linkGithub="https://github.com/luisrenato02/FSW-Store"
+          linkGithub={t("project2.linkGithub")}
           image={lrstore}
-          project={"Lr Store"}
-          description={
-            "Loja virtual mobile de eletrônicos com integração de pagamento via Stripe."
-          }
+          project={t("project2.project")}
+          description={t("project2.description")}
         >
           {" "}
           <div className="flex gap-1 items-center flex-wrap">
@@ -79,12 +77,9 @@ export const Projects = () => {
         </Project>
         <Project
           image={portal}
-          project={"Portal Infoluck"}
-          description={
-            "Portal fiscal criado para empresa Infoluck Sistemas, para que os contadores de seus clientes façam toda análise e consulta fiscal através de gráficos e relatórios adaptados."
-          }
+          project={t("project3.project")}
+          description={t("project3.description")}
         >
-          {" "}
           <div className="flex gap-1 items-center flex-wrap">
             <span
               className={`bg-indigo-100 text-indigo-800 text-xs font-medium  px-4 py-2 rounded-full dark:bg-indigo-900 dark:text-indigo-300 flex place-content-center`}
@@ -115,12 +110,9 @@ export const Projects = () => {
         </Project>
         <Project
           image={menuluck}
-          project={"MenuLuck 2.0"}
-          description={
-            "Cardápio online com seleção de cores a partir do gosto do cliente e atendimento local á mesa via QrCode."
-          }
+          project={t("project4.project")}
+          description={t("project4.description")}
         >
-          {" "}
           <div className="flex gap-1 items-center flex-wrap">
             <span
               className={`bg-emerald-100 text-emerald-800 text-xs font-medium  px-4 py-2 rounded-full dark:bg-emerald-900 dark:text-emerald-300 flex place-content-center`}
@@ -150,14 +142,11 @@ export const Projects = () => {
           </div>
         </Project>
         <Project
-          linkGithub="https://github.com/luisrenato02/Costs"
+          linkGithub={t("project5.linkGithub")}
           image={costs}
-          project={"Costs"}
-          description={
-            "Gerenciador de projetos e valores com criação de tasks e associação de valores á cada uam delas"
-          }
+          project={t("project5.project")}
+          description={t("project5.description")}
         >
-          {" "}
           <div className="flex gap-1 items-center flex-wrap">
             <span
               className={`bg-emerald-100 text-emerald-800 text-xs font-medium  px-4 py-2 rounded-full dark:bg-emerald-900 dark:text-emerald-300 flex place-content-center`}
@@ -178,12 +167,9 @@ export const Projects = () => {
         </Project>
         <Project
           image={sasInfoluck}
-          project={"Infoluck Web"}
-          description={
-            "Saas para gerenciamento de empresas com módulos de vendas, financeiro, estoque e relatórios, cadastro de produtos, etc."
-          }
+          project={t("project6.project")}
+          description={t("project6.description")}
         >
-          {" "}
           <div className="flex gap-1 items-center flex-wrap">
             <span
               className={`bg-emerald-100 text-emerald-800 text-xs font-medium  px-4 py-2 rounded-full dark:bg-emerald-900 dark:text-emerald-300 flex place-content-center`}

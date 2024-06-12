@@ -1,40 +1,30 @@
+import { useTranslations } from "next-intl";
 import { SelectTab } from "./SelectTab";
 
 export const Expirience = () => {
+  const t = useTranslations("Tabs");
   return (
     <ol className="relative border-s border-gray-200 dark:border-gray-700 z-0">
       <SelectTab
-        date="Janeiro 2020"
-        title="Montador eletrônico - IBRAMED Brasil"
-        description=" Realizar inspeção, soldagem e montagem das placas eletrônicas
-                nos equipamentos, montagem de equipamentos eletrônicos em linhas
-                e células produtivas, auxiliar a equipe na implementação de
-                melhorias durante o processo produtivo."
+        date={t("experience1.date")}
+        title={t("experience1.title")}
+        description={t("experience1.description")}
       />
 
       <SelectTab
-        date="Fevereiro 2021"
-        title="Auxiliar técnico eletrônico - IBRAMED Brasil"
-        description="Calibrar placas e equipamentos eletrônicos, reparar e trocar
-                componentes eletrrônicos danificados dos equipamentos, lançar e
-                responder os defeitos dos equipamentos e placas no sistema
-                manufatura, recomendando ações corretivas, preventivas e
-                melhorias nos dispositivos de testes."
+        date={t("experience2.date")}
+        title={t("experience2.title")}
+        description={t("experience2.description")}
       />
       <SelectTab
-        date="Novembro 2021"
-        title="Técnico de TI - Infoluck Sistemas"
-        description="Suporte á clientes que utilizam o sistema, manutenção em
-                impressoras, infraestrutura em geral, Windows, banco de dados,
-                treinamentos, criação de relatórios, manutenção em servidores."
+        date={t("experience3.date")}
+        title={t("experience3.title")}
+        description={t("experience3.description")}
       />
       <SelectTab
-        date=" Janeiro 2023"
-        title="Desenvolvedor Web - Infoluck Sistemas"
-        description="Desenhar e desenvolver o front-end de aplicações utilizando
-                Figma, React, TypeScript, dentre outras tecnologias. Manutenir
-                aplicações legado que utilizam PHP, JQuery, HTML, CSS,
-                JavaScript. Alteração de relatórios utilizando pl/sql."
+        date={t("experience4.date")}
+        title={t("experience4.title")}
+        description={t("experience4.description")}
       />
     </ol>
   );

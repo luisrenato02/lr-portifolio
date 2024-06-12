@@ -2,6 +2,7 @@ import Image, { StaticImageData } from "next/image";
 import { EyeOff, Github } from "lucide-react";
 import { Eye } from "lucide-react";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 interface ProjectProps {
   project: string;
@@ -20,6 +21,7 @@ export const Project = ({
   linkGithub,
   linkDemo,
 }: ProjectProps) => {
+  const t = useTranslations("Projects");
   return (
     <div className="flex w-auto flex-col items-center lg:flex-row p-2 rounded-lg border dark:border-slate-700 gap-4">
       <Image
@@ -44,12 +46,12 @@ export const Project = ({
               target="_blank"
             >
               <Github width={20} height={20} color="#3b82f6" />
-              <p className="text-sm text-blue-500">Repositório</p>
+              <p className="text-sm text-blue-500">{t("repository")}</p>
             </Link>
           ) : (
             <div className="flex gap-1 ">
               <Github width={20} height={20} color="gray" />
-              <p className="text-sm text-gray-500">Indisponível</p>
+              <p className="text-sm text-gray-500">{t("unavailable")}</p>
             </div>
           )}
 
@@ -60,12 +62,12 @@ export const Project = ({
               target="_blank"
             >
               <Eye width={20} height={20} color="#3b82f6" />
-              <p className="text-sm text-blue-500">Demonstração</p>
+              <p className="text-sm text-blue-500">{t("demonstration")}</p>
             </Link>
           ) : (
             <div className="flex gap-1">
               <EyeOff width={20} height={20} color="gray" />
-              <p className="text-sm text-gray-500">Indisponível</p>
+              <p className="text-sm text-gray-500">{t("unavailable")}</p>
             </div>
           )}
         </div>

@@ -12,12 +12,14 @@ import programação from "../../../../public/programação.png";
 import infra from "../../../../public/infra.png";
 import desenvolvimento_modelagem from "../../../../public/desenvolvimento_modelagem.png";
 import desenvolvimento_software from "../../../../public/desenvolvimento_software.png";
+import { useTranslations } from "next-intl";
 
 export const Certifications = () => {
+  const t = useTranslations("Certifications");
   return (
     <section id="certs" className="mt-40 flex flex-col mb-4mt-40">
       <h2 className="text-xl flex place-content-center mb-4 font-bold">
-        Certifications
+        {t("title")}
       </h2>
       <div className="relative flex justify-center items-center">
         <div className="absolute w-full h-12 bg-sky-200 dark:bg-sky-900"></div>

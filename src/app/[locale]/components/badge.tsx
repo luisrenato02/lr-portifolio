@@ -20,7 +20,7 @@ export const Badge = () => {
       <span
         className={`bg-blue-100 text-blue-800 text-xs font-medium  px-4 py-2 rounded-full dark:bg-blue-900 dark:text-blue-300 flex place-content-center`}
       >
-        JavaScript
+        TypeScript
       </span>
       <span
         className={`bg-indigo-100 text-indigo-800 text-xs font-medium  px-4 py-2 rounded-full dark:bg-indigo-900 dark:text-indigo-300 flex place-content-center`}

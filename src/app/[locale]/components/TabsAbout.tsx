@@ -4,7 +4,6 @@ import education from "../../../../public/education.png";
 import techs from "../../../../public/techs.png";
 import Image from "next/image";
 import { useState } from "react";
-import { SelectTab } from "./SelectTab";
 import { Badge } from "./badge";
 import { Education } from "./Education";
 import { Expirience } from "./Expirience";

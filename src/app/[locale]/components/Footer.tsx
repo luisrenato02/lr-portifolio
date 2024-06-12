@@ -1,10 +1,12 @@
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
+import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 const Footer = () => {
+  const t = useTranslations("Contact");
   return (
     <footer className="bg-sky-200 dark:bg-slate-800 flex w-full justify-between md:py-10 py-4 sm:px-20 px-12 shadow-sm border-b-2 dark:border-slate-700 items-center">
-      <section id="contact">aqui</section>
+      <section id="contact"></section>
       <ol className="flex justify-between w-full ">
         <li>
           <div className="flex flex-col items-center">
@@ -63,7 +65,7 @@ const Footer = () => {
             >
               <Phone />
             </Link>
-            <p className="mt-2 text-xs md:text-sm lg:text-base">Telefone</p>
+            <p className="mt-2 text-xs md:text-sm lg:text-base">{t("tell")}</p>
             <p className="text-xs md:text-sm lg:text-base hidden sm:block">
               +55 (19) 99745-9187
             </p>
