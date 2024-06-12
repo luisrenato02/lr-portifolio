@@ -1,13 +1,13 @@
-import { Github, Linkedin, Mail, Phone } from "lucide-react";
+import { Github, Heart, Linkedin, Mail, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 
 const Footer = () => {
   const t = useTranslations("Contact");
   return (
-    <footer className="bg-sky-200 dark:bg-slate-800 flex w-full justify-between md:py-10 py-4 sm:px-20 px-12 shadow-sm border-b-2 dark:border-slate-700 items-center">
+    <footer className="bg-sky-200 dark:bg-slate-800 flex flex-col w-full  md:py-10 py-4 2xl:px-60 xl:px-32 lg:px-12 md:px-12 sm:px-6 px-4  shadow-sm border-b-2 dark:border-slate-700 items-center justify-between">
       <section id="contact"></section>
-      <ol className="flex justify-between w-full ">
+      <ol className="flex justify-between w-full">
         <li>
           <div className="flex flex-col items-center">
             <Link
@@ -56,7 +56,6 @@ const Footer = () => {
           </div>
         </li>
         <li>
-          {" "}
           <div className="flex flex-col items-center">
             <Link
               target="_blank"
@@ -72,6 +71,22 @@ const Footer = () => {
           </div>
         </li>
       </ol>
+      <div className="flex gap-1 mt-8 items-center">
+        <p className="text-xs dark:text-gray-400 text-gray-600">
+          {t("development")}
+        </p>
+        <Heart color="#78716c" width={15} height={15} />
+      </div>
+      <Link
+        href={"https://github.com/luisrenato02/lr-portifolio"}
+        target="_blank"
+        className="flex gap-1 mt-1 items-center hover:bg-sky-100 dark:hover:bg-gray-700 rounded-lg p-1"
+      >
+        <p className="text-xs dark:text-gray-400 text-gray-600 hover:underline">
+          {t("repository")}
+        </p>
+        <Github color="#78716c" width={15} height={15} />
+      </Link>
     </footer>
   );
 };

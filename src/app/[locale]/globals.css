@@ -3,21 +3,28 @@
 @tailwind utilities;
 
 main {
-  @apply px-20 mt-44;
+  @apply px-60 mt-40;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1536px) {
   main {
-    @apply mt-40;
+    @apply px-32;
   }
 }
+
+@media (max-width: 1280px) {
+  main {
+    @apply px-12 mt-36;
+  }
+}
+
 @media (max-width: 768px) {
   main {
-    @apply mt-28;
+    @apply px-6 mt-20;
   }
 }
 @media (max-width: 640px) {
   main {
-    @apply p-12 mt-20;
+    @apply p-4 mt-16;
   }
 }

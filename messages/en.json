@@ -1,5 +1,166 @@
 {
-  "Index": {
-    "title": "Hello world!"
+  "Navbar": {
+    "aboutMe": "About",
+    "certifications": "Certifications",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "About": {
+    "hello": "Hello, my name is Luís Renato Toniati!",
+    "about": "About me",
+    "description": "I am a Fullstack developer, passionate about technology and its benefits to society. I am 22 years old and I have a degree in Systems Analysis and Development. I am looking for a new challenge aiming to acquire more knowledge, experiences, and professional growth. I have a great interest in software development, especially in web technologies. Besides front-end development, where I have the most proficiency, I have extensive knowledge in SQL, having learned and worked with databases before any programming language.",
+    "buttonWpp": "Talk to me",
+    "buttonCv": "Download my CV"
+  },
+  "Tabs": {
+    "expirience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "experience1": {
+      "date": "January 2020",
+      "title": "Electronic Assembler - IBRAMED Brazil",
+      "description": "Perform inspection, soldering, and assembly of electronic boards in equipment, assemble electronic equipment in production lines and cells, assist the team in implementing improvements during the production process."
+    },
+    "experience2": {
+      "date": "February 2021",
+      "title": "Electronic Technical Assistant - IBRAMED Brazil",
+      "description": "Calibrate electronic boards and equipment, repair and replace damaged electronic components in equipment, record and respond to equipment and board defects in the manufacturing system, recommending corrective, preventive actions and improvements in test devices."
+    },
+    "experience3": {
+      "date": "November 2021",
+      "title": "IT Technician - Infoluck Systems",
+      "description": "Support customers using the system, maintenance of printers, general infrastructure, Windows, database, training, report creation, server maintenance."
+    },
+    "experience4": {
+      "date": "January 2023",
+      "title": "Web Developer - Infoluck Systems",
+      "description": "Design and develop the front-end of applications using Figma, React, TypeScript, among other technologies. Maintain legacy applications that use PHP, JQuery, HTML, CSS, JavaScript. Modify reports using PL/SQL."
+    },
+    "education1": {
+      "date": "2017 - 2019",
+      "title": "ETEC - Technical School of São Paulo",
+      "description": "Technical course in electronics integrated with high school."
+    },
+    "education2": {
+      "date": "2021 - 2023",
+      "title": "São Francisco University",
+      "description": "Higher Education Technology (CST), Systems Analysis and Development."
+    },
+    "education3": {
+      "date": "2015 - 2017",
+      "title": "Technology and Management",
+      "description": "VIA BRASIL"
+    },
+    "education4": {
+      "date": "September 2020 - October 27, 2020",
+      "title": "Algorithms and Programming Logic",
+      "description": "GEEK UNIVERSITY"
+    },
+    "education5": {
+      "date": "February 2022",
+      "title": "MySQL",
+      "description": "COURSE IN VIDEO"
+    },
+    "education6": {
+      "date": "July 2022",
+      "title": "JavaScript",
+      "description": "COURSE IN VIDEO"
+    },
+    "education7": {
+      "date": "July 2022",
+      "title": "Html5 and Css3",
+      "description": "COURSE IN VIDEO"
+    },
+    "education8": {
+      "date": "July 2021",
+      "title": "IT Support",
+      "description": "SÃO FRANCISCO UNIVERSITY"
+    },
+    "education9": {
+      "date": "July 2021",
+      "title": "Information Technology Support: Basic Hardware and Applications",
+      "description": "SÃO FRANCISCO UNIVERSITY"
+    },
+    "education10": {
+      "date": "December 2021",
+      "title": "Computer Programming",
+      "description": "SÃO FRANCISCO UNIVERSITY"
+    },
+    "education11": {
+      "date": "July 2022",
+      "title": "Computer Networks Infrastructure",
+      "description": "SÃO FRANCISCO UNIVERSITY"
+    },
+    "education12": {
+      "date": "July 2022",
+      "title": "Software Development",
+      "description": "SÃO FRANCISCO UNIVERSITY"
+    },
+    "education13": {
+      "date": "July 2022",
+      "title": "Software Development: Database Modeling and Object-Oriented Programming",
+      "description": "SÃO FRANCISCO UNIVERSITY"
+    },
+    "education14": {
+      "date": "December 2022",
+      "title": "Computer Programming: Algorithmic Solutions",
+      "description": "SÃO FRANCISCO UNIVERSITY"
+    },
+    "education15": {
+      "date": "May 2024",
+      "title": "English Course for Beginners - Module 1: Beginners - Complete [VIP]",
+      "description": "COURSE IN VIDEO"
+    }
+  },
+  "Certifications": {
+    "title": "Certificates"
+  },
+  "Projects": {
+    "title": "Projects",
+    "repository": "Repository",
+    "unavailable": "Unavailable",
+    "demonstration": "Demonstration",
+    "project1": {
+      "project": "Rick and Morty Curious",
+      "description": "App with information about the characters, episodes, and locations of the Rick and Morty series, aiming to cache requests.",
+      "linkDemo": "https://rick-and-morty-xgj4-luis-renatos-projects.vercel.app/",
+      "linkGithub": "https://github.com/luisrenato02/rick-and-morty"
+    },
+    "project2": {
+      "project": "Lr Store",
+      "description": "Mobile electronics store with payment integration via Stripe.",
+      "linkDemo": "",
+      "linkGithub": "https://github.com/luisrenato02/FSW-Store"
+    },
+    "project3": {
+      "project": "Infoluck Portal",
+      "description": "Fiscal portal created for Infoluck Systems, so that the accountants of their clients can do all the fiscal analysis and consultation through adapted graphs and reports.",
+      "linkDemo": "",
+      "linkGithub": ""
+    },
+    "project4": {
+      "project": "MenuLuck 2.0",
+      "description": "Online menu with color selection based on customer preference and local table service via QR Code.",
+      "linkDemo": "",
+      "linkGithub": ""
+    },
+    "project5": {
+      "project": "Costs",
+      "description": "Project and cost manager with task creation and value association to each of them.",
+      "linkDemo": "",
+      "linkGithub": "https://github.com/luisrenato02/Costs"
+    },
+    "project6": {
+      "project": "Infoluck Web",
+      "description": "SaaS for business management with sales, finance, inventory, and reports modules, product registration, etc.",
+      "linkDemo": "",
+      "linkGithub": ""
+    }
+  },
+  "Contact": {
+    "title": "Contact",
+    "tell": "Phone",
+    "development": "Developed by Luís Renato Toniati with",
+    "repository": "Website repository here!"
   }
 }

@@ -1,14 +1,15 @@
 "use client";
-import xp from "../../../../public/xp.png";
-import education from "../../../../public/education.png";
 import techs from "../../../../public/techs.png";
 import Image from "next/image";
 import { useState } from "react";
-import { Badge } from "./badge";
+import { Badge } from "./Badge";
 import { Education } from "./Education";
 import { Expirience } from "./Expirience";
+import { useTranslations } from "next-intl";
+import { BriefcaseBusiness, GraduationCap, Wrench } from "lucide-react";
 
 export const TabsAbout = () => {
+  const t = useTranslations("Tabs");
   const [selectedTab, setSelectedTab] = useState(1);
   const selectClassName = "dark:bg-slate-700 bg-gray-200";
   return (
@@ -18,47 +19,30 @@ export const TabsAbout = () => {
           className={selectedTab === 1 ? selectClassName : ""}
           onClick={() => setSelectedTab(1)}
         >
-          <p className="hidden md:block">Experience</p>
-          <Image
-            className="block md:hidden"
-            height={25}
-            width={25}
-            src={xp}
-            alt={"expirience"}
-          />
+          <p className="hidden md:block">{t("expirience")}</p>
+
+          <BriefcaseBusiness className="block md:hidden" />
         </li>
         <li
           className={selectedTab === 2 ? selectClassName : ""}
           onClick={() => setSelectedTab(2)}
         >
-          <p className="hidden md:block">Academic Education</p>
-          <Image
-            className="block md:hidden"
-            height={25}
-            width={25}
-            src={education}
-            alt={"education"}
-          />
-        </li>
+          <p className="hidden md:block">{t("skills")}</p>
+          <Wrench className="block md:hidden" />
+        </li>{" "}
         <li
           className={selectedTab === 3 ? selectClassName : ""}
           onClick={() => setSelectedTab(3)}
         >
-          <p className="hidden md:block">Technologies</p>
-          <Image
-            className="block md:hidden"
-            height={25}
-            width={25}
-            src={techs}
-            alt={"technologies"}
-          />
+          <p className="hidden md:block">{t("education")}</p>
+          <GraduationCap className="block md:hidden" />
         </li>
       </ul>
 
       <div>
         {selectedTab === 1 && <Expirience />}
-        {selectedTab === 2 && <Education />}
-        {selectedTab === 3 && <Badge />}
+        {selectedTab === 2 && <Badge />}
+        {selectedTab === 3 && <Education />}
       </div>
     </>
   );

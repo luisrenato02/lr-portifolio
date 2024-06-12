@@ -1,4 +1,4 @@
-import rickMorty from "../../../../public/rick_morty.png";
+import rickMorty from "../../../../public/rickMorty.png";
 import lrstore from "../../../../public/lrstore.png";
 import portal from "../../../../public/portal.png";
 import menuluck from "../../../../public/menuluck.png";
@@ -42,7 +42,7 @@ export const Projects = () => {
               className={`bg-blue-100 text-blue-800 text-xs font-medium  px-4 py-2 rounded-full dark:bg-blue-900 dark:text-blue-300 flex place-content-center`}
             >
               StyledComponents
-            </span>{" "}
+            </span>
           </div>
         </Project>
         <Project
@@ -51,7 +51,6 @@ export const Projects = () => {
           project={t("project2.project")}
           description={t("project2.description")}
         >
-          {" "}
           <div className="flex gap-1 items-center flex-wrap">
             <span
               className={`bg-emerald-100 text-emerald-800 text-xs font-medium  px-4 py-2 rounded-full dark:bg-emerald-900 dark:text-emerald-300 flex place-content-center`}

@@ -14,13 +14,13 @@ export const Navbar = () => {
 
   return (
     <div className="flex fixed w-full flex-col md:flex-row-reverse justify-between items-center inset-x-0 top-0  z-10">
-      <nav className="bg-white dark:bg-slate-900 flex w-full justify-between md:py-10 py-4 sm:px-20 px-12 shadow-sm border-b-2 dark:border-slate-700 items-center">
+      <nav className="bg-white dark:bg-slate-900 flex w-full justify-between 2xl:px-60 xl:px-32 lg:px-12 md:px-12 sm:px-6 px-4  md:py-10 py-4  shadow-sm border-b-2 dark:border-slate-700 items-center">
         <Link href={"#about"}>
           <Image src={Logo} alt="Logo" width={80} height={80} />
         </Link>
 
         <div className="hidden md:flex ">
-          <ul className="flex font-bold sm:space-x-6 text-slate-400 dark:text-slate-300 hover:*:text-sky-500 dark:hover:*:text-sky-700 items-center text-xs xl:text-lg lg:text-base">
+          <ul className="flex font-bold sm:space-x-6 text-slate-400 dark:text-slate-300 hover:*:text-sky-200 dark:hover:*:text-sky-700 items-center text-xs xl:text-lg lg:text-base">
             <Link href={"#about"}>{t("aboutMe")}</Link>
             <Link href={"#certs"}>{t("certifications")}</Link>
             <Link href={"#projects"}>{t("projects")}</Link>

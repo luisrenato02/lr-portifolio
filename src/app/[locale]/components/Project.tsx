@@ -35,7 +35,7 @@ export const Project = ({
         <h3 className="text-lg mb-2 font-semibold text-gray-700 dark:text-gray-300">
           {project}
         </h3>
-        <p className="text-gray-700 dark:text-gray-400 text-sm mb-4">
+        <p className="text-gray-700 dark:text-gray-400 text-sm mb-4 ">
           {description}
         </p>
         <div className="m-2 flex gap-4 ">
@@ -46,7 +46,9 @@ export const Project = ({
               target="_blank"
             >
               <Github width={20} height={20} color="#3b82f6" />
-              <p className="text-sm text-blue-500">{t("repository")}</p>
+              <p className="text-sm text-blue-500  hover:underline">
+                {t("repository")}
+              </p>
             </Link>
           ) : (
             <div className="flex gap-1 ">
@@ -62,7 +64,9 @@ export const Project = ({
               target="_blank"
             >
               <Eye width={20} height={20} color="#3b82f6" />
-              <p className="text-sm text-blue-500">{t("demonstration")}</p>
+              <p className="text-sm text-blue-500 hover:underline">
+                {t("demonstration")}
+              </p>
             </Link>
           ) : (
             <div className="flex gap-1">

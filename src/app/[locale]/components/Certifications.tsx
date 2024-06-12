@@ -1,17 +1,16 @@
 import Image from "next/image";
-import analise from "../../../../public/analise_desenvolvimento.png";
-import logica from "../../../../public/logica_geek.png";
-import js from "../../../../public/Js_cursoemvideo.png";
-import sql from "../../../../public/Js_cursoemvideo.png";
-import html from "../../../../public/html-css.png";
-import ingles from "../../../../public/ingles_cursoemvideo.png";
-
+import analise from "../../../../public/ads.png";
+import logica from "../../../../public/logicaGeek.png";
+import js from "../../../../public/js.png";
+import sql from "../../../../public/sql.png";
+import html from "../../../../public/html.png";
+import ingles from "../../../../public/ingles.png";
 import solucoes from "../../../../public/solucoes.png";
 import redes from "../../../../public/redes.png";
 import programação from "../../../../public/programação.png";
 import infra from "../../../../public/infra.png";
-import desenvolvimento_modelagem from "../../../../public/desenvolvimento_modelagem.png";
-import desenvolvimento_software from "../../../../public/desenvolvimento_software.png";
+import desenvolvimento_modelagem from "../../../../public/desenModelagem.png";
+import desenvolvimento_software from "../../../../public/desenSoftware.png";
 import { useTranslations } from "next-intl";
 
 export const Certifications = () => {

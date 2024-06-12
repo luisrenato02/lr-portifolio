@@ -13,6 +13,9 @@
     "buttonCv": "Baixe meu CV"
   },
   "Tabs": {
+    "expirience": "Experiência",
+    "education": "Educação",
+    "skills": "Habilidades",
     "experience1": {
       "date": "Janeiro 2020",
       "title": "Montador eletrônico - IBRAMED Brasil",
@@ -31,7 +34,7 @@
     "experience4": {
       "date": "Janeiro 2023",
       "title": "Desenvolvedor Web - Infoluck Sistemas",
-      "description": "Desenhar e desenvolver o front-end de aplicações utilizando Figma, React, TypeScript, entre outras tecnologias. Manutenir aplicações legado que utilizam PHP, JQuery, HTML, CSS, JavaScript. Alteração de relatórios utilizando pl/sql."
+      "description": "Desenhar e desenvolver o front-end de aplicações utilizando Figma, React, TypeScript, entre outras tecnologias. Manutenir aplicações legado que utilizam PHP, JQuery, HTML, CSS, JavaScript. Alteração de relatórios utilizando PL/SQL."
     },
 
     "education1": {
@@ -157,6 +160,8 @@
   },
   "Contact": {
     "title": "Contato",
-    "tell": "Telefone"
+    "tell": "Telefone",
+    "development": "Desenvolvido por Luís Renato Toniati com",
+    "repository": "Repositório do site aqui!"
   }
 }
