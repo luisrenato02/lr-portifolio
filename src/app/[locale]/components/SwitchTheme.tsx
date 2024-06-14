@@ -18,7 +18,7 @@ export function SwitchTheme() {
     theme === "dark" ? (
       <LightbulbOff width={30} height={30} color={"#374151"} />
     ) : (
-      <Lightbulb width={30} height={30} color={"#374151"} />
+      <Lightbulb width={30} height={30} color={"#A3A3A3"} />
     );
   const iconSm =
     theme === "dark" ? (
@@ -28,9 +28,9 @@ export function SwitchTheme() {
     );
 
   const classNameLight =
-    "text-white hover:bg-gradient-to-r from-yellow-200 via-yellow-300 to-yellow-300 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-yellow-100 dark:focus:ring-yellow-400 font-medium rounded-lg text-sm p-1  text-center  sm:w-max sm:h-max md:px-5 md:py-2.5 ";
+    "text-white hover:bg-gradient-to-r from-yellow-200 via-yellow-300 to-yellow-300 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-yellow-100 dark:focus:ring-yellow-400 font-medium rounded-lg text-sm p-1  text-center  sm:w-max sm:h-max md:px-5 md:py-2.5 cursor-pointer";
   const classNameDark =
-    "text-white hover:bg-gradient-to-r from-gray-400 via-gray-500 to-gray-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-gray-300 dark:focus:ring-gray-800 font-medium rounded-lg text-sm p-1  text-center  sm:w-max sm:h-max md:px-5 md:py-2.5";
+    "text-white hover:bg-gradient-to-r from-gray-400 via-gray-500 to-gray-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-gray-300 dark:focus:ring-gray-800 font-medium rounded-lg text-sm p-1  text-center  sm:w-max sm:h-max md:px-5 md:py-2.5 cursor-pointer";
   return (
     <div
       className={theme === "light" ? classNameLight : classNameDark}

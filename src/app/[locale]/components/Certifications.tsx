@@ -1,4 +1,3 @@
-import Image from "next/image";
 import analise from "../../../../public/ads.png";
 import logica from "../../../../public/logicaGeek.png";
 import js from "../../../../public/js.png";
@@ -12,6 +11,8 @@ import infra from "../../../../public/infra.png";
 import desenvolvimento_modelagem from "../../../../public/desenModelagem.png";
 import desenvolvimento_software from "../../../../public/desenSoftware.png";
 import { useTranslations } from "next-intl";
+import { motion } from "framer-motion";
+import { Cert } from "./Cert";
 
 export const Certifications = () => {
   const t = useTranslations("Certifications");
@@ -23,62 +24,40 @@ export const Certifications = () => {
       <div className="relative flex justify-center items-center">
         <div className="absolute w-full h-12 bg-sky-200 dark:bg-sky-900"></div>
         <div className="relative grid grid-cols-3 md:grid-cols-6 gap-4">
-          <Image
-            width={200}
-            height={200}
-            src={analise}
+          <Cert
+            img={analise}
             alt={"Analise e Desenvolvimento"}
+            duration={0.5}
           />
-          <Image
-            width={200}
-            height={200}
-            src={logica}
-            alt={"Lógica de programação"}
-          />
-          <Image width={200} height={200} src={js} alt={"JavaScript"} />
-          <Image width={200} height={200} src={sql} alt={"SQL"} />
-          <Image width={200} height={200} src={html} alt={"HTML e CSS"} />
-          <Image width={200} height={200} src={ingles} alt={"Inglês"} />
+
+          <Cert img={logica} alt={"Lógica de programação"} duration={0.6} />
+          <Cert img={js} alt={"JavaScript"} duration={0.7} />
+          <Cert img={sql} alt={"SQL"} duration={0.8} />
+          <Cert img={html} alt={"HTML e CSS"} duration={0.9} />
+          <Cert img={ingles} alt={"Inglês"} duration={1} />
         </div>
       </div>
       <div className="relative flex justify-center items-center mt-10">
         <div className="absolute w-full h-12 bg-sky-200 dark:bg-sky-900"></div>
+
         <div className="relative grid grid-cols-3 md:grid-cols-6 gap-4">
-          <Image
-            width={200}
-            height={200}
-            src={solucoes}
-            alt={"Soluções Algorítmicas"}
-          />
-          <Image
-            width={200}
-            height={200}
-            src={redes}
-            alt={"Rede de computadores"}
-          />
-          <Image
-            width={200}
-            height={200}
-            src={programação}
+          <Cert img={solucoes} alt={"Soluções Algorítmicas"} duration={0.5} />
+          <Cert img={redes} alt={"Rede de computadores"} duration={0.6} />
+          <Cert
+            img={programação}
             alt={"Programação de computadores"}
+            duration={0.7}
           />
-          <Image
-            width={200}
-            height={200}
-            src={infra}
-            alt={"Infraestrutura de TI"}
-          />
-          <Image
-            width={200}
-            height={200}
-            src={desenvolvimento_modelagem}
+          <Cert img={infra} alt={"Infraestrutura de TI"} duration={0.8} />
+          <Cert
+            img={desenvolvimento_modelagem}
             alt={"Desenvolvimento e modelagem"}
+            duration={0.9}
           />
-          <Image
-            width={200}
-            height={200}
-            src={desenvolvimento_software}
+          <Cert
+            img={desenvolvimento_software}
             alt={"Desenvolvimente de software"}
+            duration={1}
           />
         </div>
       </div>

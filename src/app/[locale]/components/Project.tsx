@@ -1,8 +1,10 @@
+"use client";
 import Image, { StaticImageData } from "next/image";
 import { EyeOff, Github } from "lucide-react";
 import { Eye } from "lucide-react";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { motion } from "framer-motion";
 
 interface ProjectProps {
   project: string;
@@ -23,7 +25,12 @@ export const Project = ({
 }: ProjectProps) => {
   const t = useTranslations("Projects");
   return (
-    <div className="flex w-auto flex-col items-center lg:flex-row p-2 rounded-lg border dark:border-slate-700 gap-4">
+    <motion.div
+      className="flex w-auto flex-col items-center lg:flex-row p-2 rounded-lg border dark:border-slate-700 gap-4"
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: 50 }}
+    >
       <Image
         className="rounded-lg 2xl:w-80 2xl:h-w-80 w-96 "
         width={400}
@@ -77,6 +84,6 @@ export const Project = ({
         </div>
         {children}
       </div>
-    </div>
+    </motion.div>
   );
 };

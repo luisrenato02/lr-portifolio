@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import br from "../../../../public/bandeiraBr.png";
-import eua from "../../../../public/bandeiraEua.png";
+import br from "../../../../public/bandeiraBr.svg";
+import eua from "../../../../public/bandeiraEua.svg";
 
 export function SwitchLanguage() {
   const [mounted, setMounted] = useState(false);

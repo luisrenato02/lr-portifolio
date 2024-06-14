@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 main {
-  @apply px-60 mt-40;
+  @apply px-40 mt-40;
+  overflow-x: hidden;
 }
 
 @media (max-width: 1536px) {
@@ -20,11 +21,11 @@ main {
 
 @media (max-width: 768px) {
   main {
-    @apply px-6 mt-20;
+    @apply px-6 mt-24;
   }
 }
 @media (max-width: 640px) {
   main {
-    @apply p-4 mt-16;
+    @apply p-4;
   }
 }
