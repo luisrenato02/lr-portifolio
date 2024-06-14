@@ -1,11 +1,11 @@
 "use client";
 import { useState } from "react";
-import { Badge } from "./Badge";
 import { Education } from "./Education";
 import { Expirience } from "./Expirience";
 import { useTranslations } from "next-intl";
 import { BriefcaseBusiness, GraduationCap, Wrench } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
+import { Badges } from "./Badges";
 
 export const TabsAbout = () => {
   const t = useTranslations("Tabs");
@@ -62,7 +62,7 @@ export const TabsAbout = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.2 }}
             >
-              <Badge />
+              <Badges />
             </motion.div>
           </AnimatePresence>
         )}
