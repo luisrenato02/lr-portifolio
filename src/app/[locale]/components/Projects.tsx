@@ -11,7 +11,7 @@ export const Projects = () => {
   const t = useTranslations("Projects");
   return (
     <section id="projects" className="mt-40 mb-40">
-      <h2 className="text-xl flex place-content-center mb-4 font-bold">
+      <h2 className="text-xl flex place-content-center mb-4 font-semibold text-gray-700 dark:text-gray-100">
         {t("title")}
       </h2>
       <div className="grid 2xl:grid-cols-2 grid-cols-1 gap-8">

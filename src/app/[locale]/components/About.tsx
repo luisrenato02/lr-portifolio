@@ -48,10 +48,10 @@ export const About = () => {
           transition={{ duration: 0.5 }}
           className="md:col-span-2 text-gray-700 dark:text-gray-300"
         >
-          <h1 className="sm:text-3xl md:text-4xl text-2xl mb-6 text-center md:text-left text-gray-700 dark:text-gray-100">
+          <h1 className="sm:text-3xl md:text-4xl text-2xl mb-6 text-center md:text-left text-gray-700 dark:text-gray-100 font-semibold">
             {t("hello")}
           </h1>
-          <h2 className="text-xl sm:text-2xl md:text-3xl text-1xl mb-1">
+          <h2 className="text-xl sm:text-2xl md:text-3xl text-1xl mb-1 text-gray-700 dark:text-gray-100 ">
             <p>{t("about")}</p>
           </h2>
           <p>{t("description")}</p>

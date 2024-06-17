@@ -20,7 +20,7 @@ export default function Home() {
         <Certifications />
 
         <Projects />
-        <h2 className="text-xl flex place-content-center mb-4 font-bold">
+        <h2 className="text-xl flex place-content-center mb-4 font-semibold text-gray-700 dark:text-gray-100">
           {t("title")}
         </h2>
       </main>

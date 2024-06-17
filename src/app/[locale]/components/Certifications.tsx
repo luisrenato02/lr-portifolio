@@ -18,7 +18,7 @@ export const Certifications = () => {
   const t = useTranslations("Certifications");
   return (
     <section id="certs" className="mt-40 flex flex-col mb-4mt-40">
-      <h2 className="text-xl flex place-content-center mb-4 font-bold">
+      <h2 className="text-xl flex place-content-center mb-4 font-semibold text-gray-700 dark:text-gray-100">
         {t("title")}
       </h2>
       <div className="relative flex justify-center items-center">

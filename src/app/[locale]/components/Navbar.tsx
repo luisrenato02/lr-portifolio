@@ -11,7 +11,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 export const Navbar = () => {
   const t = useTranslations("Navbar");
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const [show, setShow] = useState(true);
 
