@@ -11,13 +11,14 @@ import { AnimatePresence, motion } from "framer-motion";
 
 export const Navbar = () => {
   const t = useTranslations("Navbar");
-  const [isOpen, setIsOpen] = useState("hidden");
+  const [isOpen, setIsOpen] = useState(true);
 
   const [show, setShow] = useState(true);
 
   const handleScroll = useCallback(() => {
     if (!show && window.scrollY < 500) setShow(true);
     if (show && window.scrollY > 450) setShow(false);
+    setIsOpen(false);
   }, [show]);
 
   useEffect(() => {
@@ -25,13 +26,19 @@ export const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [handleScroll, show]);
 
-  console.log(show);
+  const largura = window.innerWidth;
+  useEffect(() => {
+    if (largura > 768) {
+      setIsOpen(false);
+    }
+  }, [largura]);
+
   return (
     <AnimatePresence>
       {show && (
         <>
           <motion.div
-            initial={{ opacity: 0, y: -100 }}
+            initial={{ opacity: 0, y: -50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3 }}
             className="flex fixed w-full flex-col md:flex-row-reverse justify-between items-center inset-x-0 top-0 z-10"
@@ -56,7 +63,6 @@ export const Navbar = () => {
 
               <div className="hidden md:flex ">
                 <ul className="flex font-bold sm:space-x-6 text-slate-400 dark:text-slate-300 hover:*:text-sky-200 dark:hover:*:text-white  hover:*:underline items-center text-xs xl:text-lg lg:text-base ">
-                  <Link href={"#about"}>{t("aboutMe")}</Link>
                   <Link href={"#certs"}>{t("certifications")}</Link>
                   <Link href={"#projects"}>{t("projects")}</Link>
                   <Link href={"#contact"}>{t("contact")}</Link>
@@ -73,13 +79,30 @@ export const Navbar = () => {
                   width={30}
                   height={30}
                   className="flex md:hidden p-1  hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg cursor-pointer w-auto"
-                  onClick={() =>
-                    setIsOpen(isOpen === "hidden" ? "block" : "hidden")
-                  }
+                  onClick={() => setIsOpen(!isOpen)}
                 />
               </div>
             </nav>
           </motion.div>
+          {isOpen && (
+            <AnimatePresence>
+              <motion.div
+                className="fixed right-3 top-12 z-20 bg-sky-100 rounded-lg shadow-lg dark:bg-slate-900 p-4 cursor-pointer"
+                initial={{ opacity: 0, top: 10 }}
+                animate={{ opacity: 1, top: 65 }}
+                exit={{ opacity: 0, top: 10 }}
+              >
+                <ul className="flex gap-1 flex-col font-bold  text-slate-400 dark:text-slate-300 hover:*:text-sky-200 dark:hover:*:text-white  hover:*:underline  text-xs xl:text-lg lg:text-base pb-2 border-b">
+                  <Link href={"#certs"}>{t("certifications")}</Link>
+                  <Link href={"#projects"}>{t("projects")}</Link>
+                  <Link href={"#contact"}>{t("contact")}</Link>
+                </ul>
+                <div className="mt-2">
+                  <SwitchLanguage />
+                </div>
+              </motion.div>
+            </AnimatePresence>
+          )}
         </>
       )}
     </AnimatePresence>
