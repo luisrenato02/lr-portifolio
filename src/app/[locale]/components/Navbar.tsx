@@ -12,7 +12,6 @@ import { AnimatePresence, motion } from "framer-motion";
 export const Navbar = () => {
   const t = useTranslations("Navbar");
   const [isOpen, setIsOpen] = useState(false);
-
   const [show, setShow] = useState(true);
 
   const handleScroll = useCallback(() => {
@@ -22,16 +21,19 @@ export const Navbar = () => {
   }, [show]);
 
   useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", handleScroll);
+      return () => window.removeEventListener("scroll", handleScroll);
+    }
   }, [handleScroll, show]);
 
-  const largura = window.innerWidth;
   useEffect(() => {
-    if (largura > 768) {
-      setIsOpen(false);
+    if (typeof window !== "undefined") {
+      if (window.innerWidth > 768) {
+        setIsOpen(false);
+      }
     }
-  }, [largura]);
+  }, []);
 
   return (
     <AnimatePresence>

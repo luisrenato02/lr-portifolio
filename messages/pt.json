@@ -17,100 +17,102 @@
     "education": "Educação",
     "skills": "Habilidades",
     "experience1": {
-      "date": "Janeiro 2020",
-      "title": "Montador eletrônico - IBRAMED Brasil",
-      "description": "Realizar inspeção, soldagem e montagem das placas eletrônicas nos equipamentos, montagem equipamentos eletrônicos em linhas e células produtivas, auxiliar a equipe na implementação de melhorias durante o processo produtivo."
-    },
-    "experience2": {
-      "date": "Fevereiro 2021",
-      "title": "Auxiliar técnico eletrônico - IBRAMED Brasil",
-      "description": "Calibrar placas e equipamentos eletrônicos, reparar e trocar componentes eletrrônicos danificados dos equipamentos, lançar e responder os defeitos dos equipamentos e placas no sistema manufatura, recomendando ações corretivas, preventivas e melhorias nos dispositivos de testes"
-    },
-    "experience3": {
-      "date": "Novembro 2021",
-      "title": "Técnico de TI - Infoluck Sistemas",
-      "description": "Suporte á clientes que utilizam o sistema, manutenção em impressoras, infraestrutura em geral, Windows, banco de dados, treinamentos, criação de relatórios, manutenção em servidores."
-    },
-    "experience4": {
-      "date": "Janeiro 2023",
+      "date": "Janeiro 2023 - Março 2024",
       "title": "Desenvolvedor Web - Infoluck Sistemas",
       "description": "Desenhar e desenvolver o front-end de aplicações utilizando Figma, React, TypeScript, entre outras tecnologias. Manutenir aplicações legado que utilizam PHP, JQuery, HTML, CSS, JavaScript. Alteração de relatórios utilizando PL/SQL."
     },
-
-    "education1": {
-      "date": "2017 - 2019",
-      "title": "ETEC - Escola Técnica Estadual de São Paulo",
-      "description": "Curso técnico em eletrônica integrado ao ensino médio."
+    "experience2": {
+      "date": "Novembro 2021 - Janeiro 2023",
+      "title": "Técnico de TI - Infoluck Sistemas",
+      "description": "Suporte á clientes que utilizam o sistema, manutenção em impressoras, infraestrutura em geral, Windows, banco de dados, treinamentos, criação de relatórios, manutenção em servidores."
     },
-    "education2": {
+
+    "experience3": {
+      "date": "Fevereiro 2021 - Novembro 2021",
+      "title": "Auxiliar técnico eletrônico - IBRAMED Brasil",
+      "description": "Calibrar placas e equipamentos eletrônicos, reparar e trocar componentes eletrrônicos danificados dos equipamentos, lançar e responder os defeitos dos equipamentos e placas no sistema manufatura, recomendando ações corretivas, preventivas e melhorias nos dispositivos de testes"
+    },
+    "experience4": {
+      "date": "Janeiro 2020 - Fevereiro 2021",
+      "title": "Montador eletrônico - IBRAMED Brasil",
+      "description": "Realizar inspeção, soldagem e montagem das placas eletrônicas nos equipamentos, montagem equipamentos eletrônicos em linhas e células produtivas, auxiliar a equipe na implementação de melhorias durante o processo produtivo."
+    },
+    "education1": {
       "date": "2021 - 2023",
       "title": "Universidade São Francisco",
       "description": "Curso Superior de Tecnologia (CST), Analise e desenvolvimento de sistemas"
     },
+    "education2": {
+      "date": "2017 - 2019",
+      "title": "ETEC - Escola Técnica Estadual de São Paulo",
+      "description": "Curso técnico em eletrônica integrado ao ensino médio."
+    },
     "education3": {
-      "date": "2015 - 2017",
-      "title": "Tecnologia e Gestão",
-      "description": "VIA BRASIL"
+      "date": "maio de 2024",
+      "title": "Curso de inglês para iniciantes - módulo 1: beginners - completo [VIP]",
+      "description": "CURSO EM VÍDEO"
     },
     "education4": {
-      "date": "Setembro de 2020 - 27 de Outubro de 2020",
-      "title": "Algoritmos e Lógica de Programação",
-      "description": "GEEK UNIVERSITY"
-    },
-    "education5": {
-      "date": "fevereiro de 2022",
-      "title": "MySQL",
-      "description": "CURSO EM VÍDEO"
-    },
-    "education6": {
-      "date": "julho de 2022",
-      "title": "JavaScript",
-      "description": "CURSO EM VÍDEO"
-    },
-    "education7": {
-      "date": "julho de 2022",
-      "title": "Html5 e Css3",
-      "description": "CURSO EM VÍDEO"
-    },
-    "education8": {
-      "date": "julho 2021",
-      "title": "Suporte de ti",
-      "description": "UNIVERSIDADE SÃO FRANCISCO"
-    },
-    "education9": {
-      "date": "julho 2021",
-      "title": "Suporte de tecnologia da informação: hardware básico e Aplicações",
-      "description": "UNIVERSIDADE SÃO FRANCISCO"
-    },
-    "education10": {
-      "date": "dezembro 2021",
-      "title": "Programação de computadores",
-      "description": "UNIVERSIDADE SÃO FRANCISCO"
-    },
-    "education11": {
-      "date": "julho 2022",
-      "description": "UNIVERSIDADE SÃO FRANCISCO",
-      "title": "Infraestrutura de redes e computadores"
-    },
-    "education12": {
-      "date": "julho 202",
-      "title": "Desenvolvimento de software",
-      "description": "UNIVERSIDADE SÃO FRANCISCO"
-    },
-    "education13": {
-      "date": "julho 2022",
-      "title": "Desenvolvimento de software: modelagem de banco de Dados e orientação a objetos",
-      "description": "UNIVERSIDADE SÃO FRANCISCO"
-    },
-    "education14": {
       "date": "dezembro 2022",
       "title": "Programação de computadores: soluções algorítmicas",
       "description": "UNIVERSIDADE SÃO FRANCISCO"
     },
-    "education15": {
-      "date": "maio de 2024",
-      "title": "Curso de inglês para iniciantes - módulo 1: beginners - completo [VIP]",
+    "education5": {
+      "date": "julho 2022",
+      "title": "Desenvolvimento de software: modelagem de banco de Dados e orientação a objetos",
+      "description": "UNIVERSIDADE SÃO FRANCISCO"
+    },
+    "education6": {
+      "date": "julho 202",
+      "title": "Desenvolvimento de software",
+      "description": "UNIVERSIDADE SÃO FRANCISCO"
+    },
+    "education7": {
+      "date": "julho 2022",
+      "description": "UNIVERSIDADE SÃO FRANCISCO",
+      "title": "Infraestrutura de redes e computadores"
+    },
+
+    "education8": {
+      "date": "julho de 2022",
+      "title": "Html5 e Css3",
       "description": "CURSO EM VÍDEO"
+    },
+    "education9": {
+      "date": "julho de 2022",
+      "title": "JavaScript",
+      "description": "CURSO EM VÍDEO"
+    },
+    "education10": {
+      "date": "fevereiro de 2022",
+      "title": "MySQL",
+      "description": "CURSO EM VÍDEO"
+    },
+    "education11": {
+      "date": "dezembro 2021",
+      "title": "Programação de computadores",
+      "description": "UNIVERSIDADE SÃO FRANCISCO"
+    },
+    "education12": {
+      "date": "julho 2021",
+      "title": "Suporte de tecnologia da informação: hardware básico e Aplicações",
+      "description": "UNIVERSIDADE SÃO FRANCISCO"
+    },
+    "education13": {
+      "date": "julho 2021",
+      "title": "Suporte de ti",
+      "description": "UNIVERSIDADE SÃO FRANCISCO"
+    },
+    "education14": {
+      "date": "Setembro de 2020 - 27 de Outubro de 2020",
+      "title": "Algoritmos e Lógica de Programação",
+      "description": "GEEK UNIVERSITY"
+    },
+
+    "education15": {
+      "date": "2015 - 2017",
+      "title": "Tecnologia e Gestão",
+      "description": "VIA BRASIL"
     }
   },
   "Certifications": {

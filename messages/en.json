@@ -17,99 +17,104 @@
     "education": "Education",
     "skills": "Skills",
     "experience1": {
-      "date": "January 2020",
-      "title": "Electronic Assembler - IBRAMED Brazil",
-      "description": "Perform inspection, soldering, and assembly of electronic boards in equipment, assemble electronic equipment in production lines and cells, assist the team in implementing improvements during the production process."
-    },
-    "experience2": {
-      "date": "February 2021",
-      "title": "Electronic Technical Assistant - IBRAMED Brazil",
-      "description": "Calibrate electronic boards and equipment, repair and replace damaged electronic components in equipment, record and respond to equipment and board defects in the manufacturing system, recommending corrective, preventive actions and improvements in test devices."
-    },
-    "experience3": {
-      "date": "November 2021",
-      "title": "IT Technician - Infoluck Systems",
-      "description": "Support customers using the system, maintenance of printers, general infrastructure, Windows, database, training, report creation, server maintenance."
-    },
-    "experience4": {
-      "date": "January 2023",
+      "date": "January 2023 - March 2024",
       "title": "Web Developer - Infoluck Systems",
       "description": "Design and develop the front-end of applications using Figma, React, TypeScript, among other technologies. Maintain legacy applications that use PHP, JQuery, HTML, CSS, JavaScript. Modify reports using PL/SQL."
     },
-    "education1": {
-      "date": "2017 - 2019",
-      "title": "ETEC - Technical School of São Paulo",
-      "description": "Technical course in electronics integrated with high school."
+    "experience2": {
+      "date": "November 2021 - January 2023",
+      "title": "IT Technician - Infoluck Systems",
+      "description": "Support customers using the system, maintenance of printers, general infrastructure, Windows, database, training, report creation, server maintenance."
     },
-    "education2": {
+    "experience3": {
+      "date": "February 2021 - November 2021",
+      "title": "Electronic Technical Assistant - IBRAMED Brazil",
+      "description": "Calibrate electronic boards and equipment, repair and replace damaged electronic components in equipment, record and respond to equipment and board defects in the manufacturing system, recommending corrective, preventive actions and improvements in test devices."
+    },
+
+    "experience4": {
+      "date": "January 2020 - February 2021",
+      "title": "Electronic Assembler - IBRAMED Brazil",
+      "description": "Perform inspection, soldering, and assembly of electronic boards in equipment, assemble electronic equipment in production lines and cells, assist the team in implementing improvements during the production process."
+    },
+    "education1": {
       "date": "2021 - 2023",
       "title": "São Francisco University",
       "description": "Higher Education Technology (CST), Systems Analysis and Development."
     },
+    "education2": {
+      "date": "2017 - 2019",
+      "title": "ETEC - Technical School of São Paulo",
+      "description": "Technical course in electronics integrated with high school."
+    },
     "education3": {
-      "date": "2015 - 2017",
-      "title": "Technology and Management",
-      "description": "VIA BRASIL"
+      "date": "May 2024",
+      "title": "English Course for Beginners - Module 1: Beginners - Complete [VIP]",
+      "description": "COURSE IN VIDEO"
     },
     "education4": {
-      "date": "September 2020 - October 27, 2020",
-      "title": "Algorithms and Programming Logic",
-      "description": "GEEK UNIVERSITY"
-    },
-    "education5": {
-      "date": "February 2022",
-      "title": "MySQL",
-      "description": "COURSE IN VIDEO"
-    },
-    "education6": {
-      "date": "July 2022",
-      "title": "JavaScript",
-      "description": "COURSE IN VIDEO"
-    },
-    "education7": {
-      "date": "July 2022",
-      "title": "Html5 and Css3",
-      "description": "COURSE IN VIDEO"
-    },
-    "education8": {
-      "date": "July 2021",
-      "title": "IT Support",
-      "description": "SÃO FRANCISCO UNIVERSITY"
-    },
-    "education9": {
-      "date": "July 2021",
-      "title": "Information Technology Support: Basic Hardware and Applications",
-      "description": "SÃO FRANCISCO UNIVERSITY"
-    },
-    "education10": {
-      "date": "December 2021",
-      "title": "Computer Programming",
-      "description": "SÃO FRANCISCO UNIVERSITY"
-    },
-    "education11": {
-      "date": "July 2022",
-      "title": "Computer Networks Infrastructure",
-      "description": "SÃO FRANCISCO UNIVERSITY"
-    },
-    "education12": {
-      "date": "July 2022",
-      "title": "Software Development",
-      "description": "SÃO FRANCISCO UNIVERSITY"
-    },
-    "education13": {
-      "date": "July 2022",
-      "title": "Software Development: Database Modeling and Object-Oriented Programming",
-      "description": "SÃO FRANCISCO UNIVERSITY"
-    },
-    "education14": {
       "date": "December 2022",
       "title": "Computer Programming: Algorithmic Solutions",
       "description": "SÃO FRANCISCO UNIVERSITY"
     },
-    "education15": {
-      "date": "May 2024",
-      "title": "English Course for Beginners - Module 1: Beginners - Complete [VIP]",
+
+    "education5": {
+      "date": "July 2022",
+      "title": "Software Development: Database Modeling and Object-Oriented Programming",
+      "description": "SÃO FRANCISCO UNIVERSITY"
+    },
+    "education6": {
+      "date": "July 2022",
+      "title": "Software Development",
+      "description": "SÃO FRANCISCO UNIVERSITY"
+    },
+    "education7": {
+      "date": "July 2022",
+      "title": "Computer Networks Infrastructure",
+      "description": "SÃO FRANCISCO UNIVERSITY"
+    },
+
+    "education8": {
+      "date": "July 2022",
+      "title": "Html5 and Css3",
       "description": "COURSE IN VIDEO"
+    },
+
+    "education9": {
+      "date": "July 2022",
+      "title": "JavaScript",
+      "description": "COURSE IN VIDEO"
+    },
+    "education10": {
+      "date": "February 2022",
+      "title": "MySQL",
+      "description": "COURSE IN VIDEO"
+    },
+
+    "education11": {
+      "date": "December 2021",
+      "title": "Computer Programming",
+      "description": "SÃO FRANCISCO UNIVERSITY"
+    },
+    "education12": {
+      "date": "July 2021",
+      "title": "Information Technology Support: Basic Hardware and Applications",
+      "description": "SÃO FRANCISCO UNIVERSITY"
+    },
+    "education13": {
+      "date": "July 2021",
+      "title": "IT Support",
+      "description": "SÃO FRANCISCO UNIVERSITY"
+    },
+    "education14": {
+      "date": "September 2020 - October 27, 2020",
+      "title": "Algorithms and Programming Logic",
+      "description": "GEEK UNIVERSITY"
+    },
+    "education15": {
+      "date": "2015 - 2017",
+      "title": "Technology and Management",
+      "description": "VIA BRASIL"
     }
   },
   "Certifications": {

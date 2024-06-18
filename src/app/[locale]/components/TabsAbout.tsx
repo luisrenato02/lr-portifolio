@@ -18,7 +18,7 @@ export const TabsAbout = () => {
       exit={{ opacity: 0, x: -100 }}
       transition={{ duration: 0.5 }}
     >
-      <ul className="mb-5 flex list-none ps-0 w-full justify-around rounded-lg border border-gray-300 dark:border-slate-600 *:text-gray-400 *:dark:text-gray-300 *:rounded-lg dark:hover:*:bg-slate-800 hover:*:bg-gray-100 *:p-1 items-center *:w-full *:h-full *:place-content-center *:flex">
+      <ul className="mb-5 flex list-none ps-0 w-full justify-around rounded-lg border border-gray-300 dark:border-slate-600 *:text-gray-400 *:dark:text-gray-300 *:rounded-lg dark:hover:*:bg-slate-800 hover:*:bg-gray-100 *:p-3 items-center *:w-full *:h-full *:place-content-center *:flex">
         <li
           className={selectedTab === 1 ? selectClassName : "cursor-pointer"}
           onClick={() => setSelectedTab(1)}
@@ -33,7 +33,7 @@ export const TabsAbout = () => {
         >
           <p className="hidden md:block">{t("skills")}</p>
           <Wrench className="block md:hidden" />
-        </li>{" "}
+        </li>
         <li
           className={selectedTab === 3 ? selectClassName : "cursor-pointer"}
           onClick={() => setSelectedTab(3)}
