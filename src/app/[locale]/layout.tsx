@@ -4,7 +4,6 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import "./globals.css";
 import { Metadata } from "next";
-import image from "../../../public/image.svg";
 
 export const metadata: Metadata = {
   title: {
@@ -19,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "Luís Renato - Portfólio",
     images: [
       {
-        url: image,
+        url: https:"//imgur.com/6woKyaW",
         width: 800,
         height: 400,
       },
