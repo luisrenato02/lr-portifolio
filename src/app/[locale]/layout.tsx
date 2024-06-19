@@ -12,15 +12,15 @@ export const metadata: Metadata = {
   },
   description: "Portfolio de Luís Renato Toniati(@luistoniati02)",
   openGraph: {
-    title: "Luís Renato Toniati(@luistoniati02)",
-    description: "FullStack / Brazil / luisrtoniati@gmail.com",
-    url:"",
+    title: "Luís Renato Toniati",
+    description: "FullStack / Developer / Brazil / luisrtoniati@gmail.com",
+    url: "https://www.luisrenatodev.com",
     siteName: "Luís Renato - Portfólio",
     images: [
       {
         url: "https://i.imgur.com/6woKyaW.jpeg",
-        width: 800,
-        height: 400,
+        width: 1024,
+        height: 768,
       },
     ],
     locale: "pt_BR",
