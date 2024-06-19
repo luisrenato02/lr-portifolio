@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Luís Renato Toniati(@luistoniati02)",
     description: "FullStack / Brazil / luisrtoniati@gmail.com",
-    url: "",
+    url:"https://i.imgur.com/6woKyaW.jpeg",
     siteName: "Luís Renato - Portfólio",
     images: [
       {
