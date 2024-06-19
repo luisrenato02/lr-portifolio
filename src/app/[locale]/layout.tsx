@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: "Luís Renato - Portfólio",
     images: [
       {
-        url: https:"//imgur.com/6woKyaW",
+        url: "https://imgur.com/6woKyaW",
         width: 800,
         height: 400,
       },
