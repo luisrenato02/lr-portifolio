@@ -14,11 +14,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Luís Renato Toniati(@luistoniati02)",
     description: "FullStack / Brazil / luisrtoniati@gmail.com",
-    url:"https://i.imgur.com/6woKyaW.jpeg",
+    url:"",
     siteName: "Luís Renato - Portfólio",
     images: [
       {
-        url: "https://imgur.com/6woKyaW",
+        url: "https://i.imgur.com/6woKyaW.jpeg",
         width: 800,
         height: 400,
       },
