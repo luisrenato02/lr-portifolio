@@ -4,7 +4,6 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import "./globals.css";
 import { Metadata } from "next";
-import image from "../../../public/image.svg";
 
 export const metadata: Metadata = {
   title: {
@@ -13,15 +12,15 @@ export const metadata: Metadata = {
   },
   description: "Portfolio de Luís Renato Toniati(@luistoniati02)",
   openGraph: {
-    title: "Luís Renato Toniati(@luistoniati02)",
-    description: "FullStack / Brazil / luisrtoniati@gmail.com",
-    url: "",
+    title: "Luís Renato Toniati",
+    description: "FullStack / Developer / Brazil / luisrtoniati@gmail.com",
+    url: "https://www.luisrenatodev.com",
     siteName: "Luís Renato - Portfólio",
     images: [
       {
-        url: image,
-        width: 800,
-        height: 400,
+        url: "https://i.imgur.com/6woKyaW.jpeg",
+        width: 1200,
+        height: 630,
       },
     ],
     locale: "pt_BR",

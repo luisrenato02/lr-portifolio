@@ -1,0 +1,60 @@
+{
+  "editor.fontFamily": "IBM Plex Mono, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "editor.lineHeight": 20,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "workbench.startupEditor": "newUntitledFile",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "explorer.confirmDragAndDrop": false,
+  "diffEditor.renderSideBySide": true,
+  "editor.formatOnSave": true,
+  "html.autoClosingTags": false,
+  "editor.autoIndent": "advanced",
+  "editor.colorDecorators": false,
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "files.associations": {
+    "*.js": "javascriptreact"
+  },
+  "editor.minimap.renderCharacters": false,
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.filePath": "off",
+  "breadcrumbs.icons": false,
+  "outline.icons": false,
+  "editor.renderWhitespace": "selection",
+  "workbench.statusBar.visible": true,
+  "explorer.sortOrder": "type",
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
+
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  "editor.accessibilitySupport": "off",
+
+  "git.confirmSync": false,
+
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Dracula Soft",
+  "editor.inlineSuggest.enabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.eol": "\n",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "github.copilot.editor.enableAutoCompletions": true
+}
