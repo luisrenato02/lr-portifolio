@@ -8,7 +8,7 @@
   "About": {
     "hello": "Olá, me chamo Luís Renato Toniati!",
     "about": "Sobre mim",
-    "description": "Sou um desenvolvedor Fullstack, apaixonado pela tecnologia e seus benefícios oferecidos á sociedade. Tenho 22 anos e sou formado em Análise e Desenvolvimento de Sistemas, estou em busca de um novo desafio visando adquirir mais conhecimentos, experiências e crescimento profissional. Tenho grande interesse em desenvolvimento de software, principalmente em tecnologias web. Além do desenvolvimento front-end que é onde tenho maior proeficiência, tenho amplo conhecimento em SQL aliás aprendi sobre e trabalhei com banco de dados antes de qualquer linguagem de programação.",
+    "description": "Desenvolvedor Front-end com foco em React, Next.js e integração de APIs modernas como Firebase e Stripe. Tenho experiência prática em aplicações em produção, incluindo sistemas de cardápio online com impressão automática em maquininhas e suporte a pagamentos via Apple Pay e Google Pay. Capacidade de liderar projetos técnicos do zero, resolver bugs críticos e adaptar soluções sob restrições técnicas. Busco oportunidades onde possa aplicar minha expertise técnica com mais propósito, em equipes colaborativas que valorizem autonomia e impacto real.",
     "buttonWpp": "Fale comigo",
     "buttonCv": "Baixe meu CV"
   },
@@ -17,22 +17,26 @@
     "education": "Educação",
     "skills": "Habilidades",
     "experience1": {
+      "date": "Setembro 2024 - atualmente",
+      "title": "Desenvolvedor Fullstack - Build Solutions",
+      "description": "Responsável pela manutenção e desenvolvimento de novas funcionalidades em aplicações SaaS. Atuei na integração de APIs de pagamento online como Stripe, Google Pay e Apple Pay. Desenvolvi aplicações com React Native, incluindo um sistema de cardápio digital em tablets e soluções embarcadas em maquininhas POS com integração a serviços como PagBank e Stone."
+    },
+    "experience2": {
       "date": "Janeiro 2023 - Março 2024",
       "title": "Desenvolvedor Web - Infoluck Sistemas",
       "description": "Desenhar e desenvolver o front-end de aplicações utilizando Figma, React, TypeScript, entre outras tecnologias. Manutenir aplicações legado que utilizam PHP, JQuery, HTML, CSS, JavaScript. Alteração de relatórios utilizando PL/SQL."
     },
-    "experience2": {
+    "experience3": {
       "date": "Novembro 2021 - Janeiro 2023",
       "title": "Técnico de TI - Infoluck Sistemas",
       "description": "Suporte á clientes que utilizam o sistema, manutenção em impressoras, infraestrutura em geral, Windows, banco de dados, treinamentos, criação de relatórios, manutenção em servidores."
     },
-
-    "experience3": {
+    "experience4": {
       "date": "Fevereiro 2021 - Novembro 2021",
       "title": "Auxiliar técnico eletrônico - IBRAMED Brasil",
       "description": "Calibrar placas e equipamentos eletrônicos, reparar e trocar componentes eletrrônicos danificados dos equipamentos, lançar e responder os defeitos dos equipamentos e placas no sistema manufatura, recomendando ações corretivas, preventivas e melhorias nos dispositivos de testes"
     },
-    "experience4": {
+    "experience5": {
       "date": "Janeiro 2020 - Fevereiro 2021",
       "title": "Montador eletrônico - IBRAMED Brasil",
       "description": "Realizar inspeção, soldagem e montagem das placas eletrônicas nos equipamentos, montagem equipamentos eletrônicos em linhas e células produtivas, auxiliar a equipe na implementação de melhorias durante o processo produtivo."
@@ -48,68 +52,73 @@
       "description": "Curso técnico em eletrônica integrado ao ensino médio."
     },
     "education3": {
+      "date": "março de 2025 - cursando",
+      "title": "Curso de inglês do intermediário á fluência",
+      "description": "Excellent Global"
+    },
+    "education4": {
       "date": "maio de 2024",
       "title": "Curso de inglês para iniciantes - módulo 1: beginners - completo [VIP]",
       "description": "CURSO EM VÍDEO"
     },
-    "education4": {
+    "education5": {
       "date": "dezembro 2022",
       "title": "Programação de computadores: soluções algorítmicas",
       "description": "UNIVERSIDADE SÃO FRANCISCO"
     },
-    "education5": {
+    "education6": {
       "date": "julho 2022",
       "title": "Desenvolvimento de software: modelagem de banco de Dados e orientação a objetos",
       "description": "UNIVERSIDADE SÃO FRANCISCO"
     },
-    "education6": {
+    "education7": {
       "date": "julho 202",
       "title": "Desenvolvimento de software",
       "description": "UNIVERSIDADE SÃO FRANCISCO"
     },
-    "education7": {
+    "education8": {
       "date": "julho 2022",
       "description": "UNIVERSIDADE SÃO FRANCISCO",
       "title": "Infraestrutura de redes e computadores"
     },
 
-    "education8": {
+    "education9": {
       "date": "julho de 2022",
       "title": "Html5 e Css3",
       "description": "CURSO EM VÍDEO"
     },
-    "education9": {
+    "education10": {
       "date": "julho de 2022",
       "title": "JavaScript",
       "description": "CURSO EM VÍDEO"
     },
-    "education10": {
+    "education11": {
       "date": "fevereiro de 2022",
       "title": "MySQL",
       "description": "CURSO EM VÍDEO"
     },
-    "education11": {
+    "education12": {
       "date": "dezembro 2021",
       "title": "Programação de computadores",
       "description": "UNIVERSIDADE SÃO FRANCISCO"
     },
-    "education12": {
+    "education13": {
       "date": "julho 2021",
       "title": "Suporte de tecnologia da informação: hardware básico e Aplicações",
       "description": "UNIVERSIDADE SÃO FRANCISCO"
     },
-    "education13": {
+    "education14": {
       "date": "julho 2021",
       "title": "Suporte de ti",
       "description": "UNIVERSIDADE SÃO FRANCISCO"
     },
-    "education14": {
+    "education15": {
       "date": "Setembro de 2020 - 27 de Outubro de 2020",
       "title": "Algoritmos e Lógica de Programação",
       "description": "GEEK UNIVERSITY"
     },
 
-    "education15": {
+    "education16": {
       "date": "2015 - 2017",
       "title": "Tecnologia e Gestão",
       "description": "VIA BRASIL"

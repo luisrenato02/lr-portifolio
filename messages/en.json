@@ -8,7 +8,7 @@
   "About": {
     "hello": "Hello, my name is Luís Renato Toniati!",
     "about": "About me",
-    "description": "I am a Fullstack developer, passionate about technology and its benefits to society. I am 22 years old and I have a degree in Systems Analysis and Development. I am looking for a new challenge aiming to acquire more knowledge, experiences, and professional growth. I have a great interest in software development, especially in web technologies. Besides front-end development, where I have the most proficiency, I have extensive knowledge in SQL, having learned and worked with databases before any programming language.",
+    "description": "Front-end Developer focused on React, Next.js, and modern API integrations such as Firebase and Stripe. I have hands-on experience delivering production-ready applications, including online menu systems with automatic printing on smart devices and support for Apple Pay and Google Pay. Skilled at leading technical projects from scratch, solving critical bugs, and adapting solutions under technical constraints. I'm looking for opportunities where I can apply my technical expertise with greater purpose, in collaborative teams that value autonomy and real impact.",
     "buttonWpp": "Talk to me",
     "buttonCv": "Download my CV"
   },
@@ -17,22 +17,27 @@
     "education": "Education",
     "skills": "Skills",
     "experience1": {
+      "date": "October 2024 - currently",
+      "title": "Fullstack Developer – Build Solutions",
+      "description": "Maintained and developed new features for SaaS applications. Integrated online payment APIs including Stripe, Google Pay, and Apple Pay. Built React Native applications, such as a digital menu for tablets and POS terminal apps with PagBank and Stone payment integration."
+    },
+    "experience2": {
       "date": "January 2023 - March 2024",
       "title": "Web Developer - Infoluck Systems",
       "description": "Design and develop the front-end of applications using Figma, React, TypeScript, among other technologies. Maintain legacy applications that use PHP, JQuery, HTML, CSS, JavaScript. Modify reports using PL/SQL."
     },
-    "experience2": {
+    "experience3": {
       "date": "November 2021 - January 2023",
       "title": "IT Technician - Infoluck Systems",
       "description": "Support customers using the system, maintenance of printers, general infrastructure, Windows, database, training, report creation, server maintenance."
     },
-    "experience3": {
+    "experience4": {
       "date": "February 2021 - November 2021",
       "title": "Electronic Technical Assistant - IBRAMED Brazil",
       "description": "Calibrate electronic boards and equipment, repair and replace damaged electronic components in equipment, record and respond to equipment and board defects in the manufacturing system, recommending corrective, preventive actions and improvements in test devices."
     },
 
-    "experience4": {
+    "experience5": {
       "date": "January 2020 - February 2021",
       "title": "Electronic Assembler - IBRAMED Brazil",
       "description": "Perform inspection, soldering, and assembly of electronic boards in equipment, assemble electronic equipment in production lines and cells, assist the team in implementing improvements during the production process."
@@ -40,7 +45,7 @@
     "education1": {
       "date": "2021 - 2023",
       "title": "São Francisco University",
-      "description": "Higher Education Technology (CST), Systems Analysis and Development."
+      "description": "Higher Education Technology (CST), Systems Analysis and Develo01pment."
     },
     "education2": {
       "date": "2017 - 2019",
@@ -48,70 +53,75 @@
       "description": "Technical course in electronics integrated with high school."
     },
     "education3": {
+      "date": "March 2025 - Ongoing",
+      "title": "English Course from Intermediate to Fluency",
+      "description": "Excellent Global"
+    },
+    "education4": {
       "date": "May 2024",
       "title": "English Course for Beginners - Module 1: Beginners - Complete [VIP]",
       "description": "COURSE IN VIDEO"
     },
-    "education4": {
+    "education5": {
       "date": "December 2022",
       "title": "Computer Programming: Algorithmic Solutions",
       "description": "SÃO FRANCISCO UNIVERSITY"
     },
 
-    "education5": {
+    "education6": {
       "date": "July 2022",
       "title": "Software Development: Database Modeling and Object-Oriented Programming",
       "description": "SÃO FRANCISCO UNIVERSITY"
     },
-    "education6": {
+    "education7": {
       "date": "July 2022",
       "title": "Software Development",
       "description": "SÃO FRANCISCO UNIVERSITY"
     },
-    "education7": {
+    "education8": {
       "date": "July 2022",
       "title": "Computer Networks Infrastructure",
       "description": "SÃO FRANCISCO UNIVERSITY"
     },
 
-    "education8": {
+    "education9": {
       "date": "July 2022",
       "title": "Html5 and Css3",
       "description": "COURSE IN VIDEO"
     },
 
-    "education9": {
+    "education10": {
       "date": "July 2022",
       "title": "JavaScript",
       "description": "COURSE IN VIDEO"
     },
-    "education10": {
+    "education11": {
       "date": "February 2022",
       "title": "MySQL",
       "description": "COURSE IN VIDEO"
     },
 
-    "education11": {
+    "education12": {
       "date": "December 2021",
       "title": "Computer Programming",
       "description": "SÃO FRANCISCO UNIVERSITY"
     },
-    "education12": {
+    "education13": {
       "date": "July 2021",
       "title": "Information Technology Support: Basic Hardware and Applications",
       "description": "SÃO FRANCISCO UNIVERSITY"
     },
-    "education13": {
+    "education14": {
       "date": "July 2021",
       "title": "IT Support",
       "description": "SÃO FRANCISCO UNIVERSITY"
     },
-    "education14": {
+    "education15": {
       "date": "September 2020 - October 27, 2020",
       "title": "Algorithms and Programming Logic",
       "description": "GEEK UNIVERSITY"
     },
-    "education15": {
+    "education16": {
       "date": "2015 - 2017",
       "title": "Technology and Management",
       "description": "VIA BRASIL"

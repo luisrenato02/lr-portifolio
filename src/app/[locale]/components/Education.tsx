@@ -17,14 +17,14 @@ export const Education = () => {
           title={t("education2.title")}
           description={t("education2.description")}
         />
-      </ol>
-      <h3 className="text-lg mb-5 font-semibold text-gray-500 ">Courses</h3>
-      <ol className="relative border-s border-gray-200 dark:border-gray-700 z-0">
         <SelectTab
           date={t("education3.date")}
           title={t("education3.title")}
           description={t("education3.description")}
         />
+      </ol>
+      <h3 className="text-lg mb-5 font-semibold text-gray-500 ">Courses</h3>
+      <ol className="relative border-s border-gray-200 dark:border-gray-700 z-0">
         <SelectTab
           date={t("education4.date")}
           title={t("education4.title")}
@@ -80,11 +80,15 @@ export const Education = () => {
           title={t("education14.title")}
           description={t("education14.description")}
         />
-
         <SelectTab
           date={t("education15.date")}
           title={t("education15.title")}
           description={t("education15.description")}
+        />
+        <SelectTab
+          date={t("education16.date")}
+          title={t("education16.title")}
+          description={t("education16.description")}
         />
       </ol>
     </div>
