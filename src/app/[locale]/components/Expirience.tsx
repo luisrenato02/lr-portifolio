@@ -26,6 +26,11 @@ export const Expirience = () => {
         title={t("experience4.title")}
         description={t("experience4.description")}
       />
+      <SelectTab
+        date={t("experience5.date")}
+        title={t("experience5.title")}
+        description={t("experience5.description")}
+      />
     </ol>
   );
 };
