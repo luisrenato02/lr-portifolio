@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Luís Renato Toniati",
     description: "FullStack / Developer / Brazil / luisrtoniati@gmail.com",
-    url: "https://www.luisrenatodev.com",
+    url: "https://lr-portifolio.vercel.app",
     siteName: "Luís Renato - Portfólio",
     images: [
       {

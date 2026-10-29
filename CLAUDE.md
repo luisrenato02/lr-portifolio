@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-Single-page personal portfolio for Luís Renato Toniati (https://www.luisrenatodev.com), built with Next.js 14 (App Router), TypeScript, Tailwind CSS and `next-intl` (PT/EN). Dark-only design: lime accent `#B6F23E`, Geist / Geist Mono fonts.
+Single-page personal portfolio for Luís Renato Toniati (https://lr-portifolio.vercel.app), built with Next.js 14 (App Router), TypeScript, Tailwind CSS and `next-intl` (PT/EN). Dark-only design: lime accent `#B6F23E`, Geist / Geist Mono fonts.
 
 ## Commands
 
