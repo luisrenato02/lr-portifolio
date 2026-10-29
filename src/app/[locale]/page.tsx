@@ -1,31 +1,26 @@
-import { useTranslations } from "next-intl";
-import { Navbar } from "./components/Navbar";
-import { About } from "./components/About";
-import Footer from "./components/Footer";
-import { TabsAbout } from "./components/TabsAbout";
-import { Certifications } from "./components/Certifications";
+import { Header } from "./components/Header";
+import { Hero } from "./components/Hero";
+import { Stack } from "./components/Stack";
+import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
-import { ButtonToTop } from "./components/ButtonToTop";
-import { motion } from "framer-motion";
+import { Education } from "./components/Education";
+import { Contact, Footer } from "./components/Contact";
+import { WaterDistortion } from "./components/WaterDistortion";
 
 export default function Home() {
-  const t = useTranslations("Contact");
-
   return (
     <>
-      <Navbar />
-      <main>
-        <About />
-        <TabsAbout />
-        <Certifications />
-
+      <WaterDistortion />
+      <Header />
+      <main id="topo" className="max-w-[1200px] mx-auto px-5 md:px-8">
+        <Hero />
+        <Stack />
+        <Experience />
         <Projects />
-        <h2 className="text-xl flex place-content-center mb-4 font-semibold text-gray-700 dark:text-gray-100">
-          {t("title")}
-        </h2>
+        <Education />
+        <Contact />
       </main>
       <Footer />
-      <ButtonToTop />
     </>
   );
 }

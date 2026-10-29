@@ -1,178 +1,137 @@
 {
-  "Navbar": {
-    "aboutMe": "Sobre",
-    "certifications": "Certificados",
+  "Nav": {
+    "experience": "Experiência",
     "projects": "Projetos",
-    "contact": "Contato"
+    "education": "Formação",
+    "contact": "Contato",
+    "language": "Idioma",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu"
   },
-  "About": {
-    "hello": "Olá, me chamo Luís Renato Toniati!",
-    "about": "Sobre mim",
-    "description": "Desenvolvedor Front-end com foco em React, Next.js e integração de APIs modernas como Firebase e Stripe. Tenho experiência prática em aplicações em produção, incluindo sistemas de cardápio online com impressão automática em maquininhas e suporte a pagamentos via Apple Pay e Google Pay. Capacidade de liderar projetos técnicos do zero, resolver bugs críticos e adaptar soluções sob restrições técnicas. Busco oportunidades onde possa aplicar minha expertise técnica com mais propósito, em equipes colaborativas que valorizem autonomia e impacto real.",
-    "buttonWpp": "Fale comigo",
-    "buttonCv": "Baixe meu CV"
+  "Hero": {
+    "status": "Aberto a novas oportunidades",
+    "hello": "Olá, eu sou Luís Renato Toniati —",
+    "title": "Desenvolvedor full stack que transforma problemas de negócio em software em",
+    "titleAccent": "produção",
+    "description": "Atuo de ponta a ponta: interfaces web, mobile e desktop, APIs, bancos de dados, agentes de IA e integrações com pagamentos, webhooks e tempo real (WebSockets e SSE). Gosto de resolver problemas reais com software fácil de manter e boa arquitetura.",
+    "talk": "Fale comigo",
+    "cv": "Baixar CV",
+    "currently": "Atualmente",
+    "currentRole": "Infoluck Sistemas",
+    "photoAlt": "Foto de Luís Renato Toniati"
   },
-  "Tabs": {
-    "expirience": "Experiência",
-    "education": "Educação",
-    "skills": "Habilidades",
-    "experience1": {
-      "date": "Setembro 2024 - atualmente",
-      "title": "Desenvolvedor Fullstack - Build Solutions",
-      "description": "Responsável pela manutenção e desenvolvimento de novas funcionalidades em aplicações SaaS. Atuei na integração de APIs de pagamento online como Stripe, Google Pay e Apple Pay. Desenvolvi aplicações com React Native, incluindo um sistema de cardápio digital em tablets e soluções embarcadas em maquininhas POS com integração a serviços como PagBank e Stone."
-    },
-    "experience2": {
-      "date": "Janeiro 2023 - Março 2024",
-      "title": "Desenvolvedor Web - Infoluck Sistemas",
-      "description": "Desenhar e desenvolver o front-end de aplicações utilizando Figma, React, TypeScript, entre outras tecnologias. Manutenir aplicações legado que utilizam PHP, JQuery, HTML, CSS, JavaScript. Alteração de relatórios utilizando PL/SQL."
-    },
-    "experience3": {
-      "date": "Novembro 2021 - Janeiro 2023",
-      "title": "Técnico de TI - Infoluck Sistemas",
-      "description": "Suporte á clientes que utilizam o sistema, manutenção em impressoras, infraestrutura em geral, Windows, banco de dados, treinamentos, criação de relatórios, manutenção em servidores."
-    },
-    "experience4": {
-      "date": "Fevereiro 2021 - Novembro 2021",
-      "title": "Auxiliar técnico eletrônico - IBRAMED Brasil",
-      "description": "Calibrar placas e equipamentos eletrônicos, reparar e trocar componentes eletrrônicos danificados dos equipamentos, lançar e responder os defeitos dos equipamentos e placas no sistema manufatura, recomendando ações corretivas, preventivas e melhorias nos dispositivos de testes"
-    },
-    "experience5": {
-      "date": "Janeiro 2020 - Fevereiro 2021",
-      "title": "Montador eletrônico - IBRAMED Brasil",
-      "description": "Realizar inspeção, soldagem e montagem das placas eletrônicas nos equipamentos, montagem equipamentos eletrônicos em linhas e células produtivas, auxiliar a equipe na implementação de melhorias durante o processo produtivo."
-    },
-    "education1": {
-      "date": "2021 - 2023",
-      "title": "Universidade São Francisco",
-      "description": "Curso Superior de Tecnologia (CST), Analise e desenvolvimento de sistemas"
-    },
-    "education2": {
-      "date": "2017 - 2019",
-      "title": "ETEC - Escola Técnica Estadual de São Paulo",
-      "description": "Curso técnico em eletrônica integrado ao ensino médio."
-    },
-    "education3": {
-      "date": "março de 2025 - cursando",
-      "title": "Curso de inglês do intermediário á fluência",
-      "description": "Excellent Global"
-    },
-    "education4": {
-      "date": "maio de 2024",
-      "title": "Curso de inglês para iniciantes - módulo 1: beginners - completo [VIP]",
-      "description": "CURSO EM VÍDEO"
-    },
-    "education5": {
-      "date": "dezembro 2022",
-      "title": "Programação de computadores: soluções algorítmicas",
-      "description": "UNIVERSIDADE SÃO FRANCISCO"
-    },
-    "education6": {
-      "date": "julho 2022",
-      "title": "Desenvolvimento de software: modelagem de banco de Dados e orientação a objetos",
-      "description": "UNIVERSIDADE SÃO FRANCISCO"
-    },
-    "education7": {
-      "date": "julho 202",
-      "title": "Desenvolvimento de software",
-      "description": "UNIVERSIDADE SÃO FRANCISCO"
-    },
-    "education8": {
-      "date": "julho 2022",
-      "description": "UNIVERSIDADE SÃO FRANCISCO",
-      "title": "Infraestrutura de redes e computadores"
-    },
-
-    "education9": {
-      "date": "julho de 2022",
-      "title": "Html5 e Css3",
-      "description": "CURSO EM VÍDEO"
-    },
-    "education10": {
-      "date": "julho de 2022",
-      "title": "JavaScript",
-      "description": "CURSO EM VÍDEO"
-    },
-    "education11": {
-      "date": "fevereiro de 2022",
-      "title": "MySQL",
-      "description": "CURSO EM VÍDEO"
-    },
-    "education12": {
-      "date": "dezembro 2021",
-      "title": "Programação de computadores",
-      "description": "UNIVERSIDADE SÃO FRANCISCO"
-    },
-    "education13": {
-      "date": "julho 2021",
-      "title": "Suporte de tecnologia da informação: hardware básico e Aplicações",
-      "description": "UNIVERSIDADE SÃO FRANCISCO"
-    },
-    "education14": {
-      "date": "julho 2021",
-      "title": "Suporte de ti",
-      "description": "UNIVERSIDADE SÃO FRANCISCO"
-    },
-    "education15": {
-      "date": "Setembro de 2020 - 27 de Outubro de 2020",
-      "title": "Algoritmos e Lógica de Programação",
-      "description": "GEEK UNIVERSITY"
-    },
-
-    "education16": {
-      "date": "2015 - 2017",
-      "title": "Tecnologia e Gestão",
-      "description": "VIA BRASIL"
-    }
+  "Stack": {
+    "languages": "Linguagens",
+    "frontend": "Front-end & mobile",
+    "backend": "Back-end & dados",
+    "integrations": "Integrações",
+    "quality": "Qualidade & DevOps"
   },
-  "Certifications": {
-    "title": "Certificados"
+  "Experience": {
+    "label": "01 — Experiência",
+    "title": "Software rodando em produção, para empresas reais.",
+    "subtitle": "Quase quatro anos desenvolvendo SaaS, apps mobile e integrações de pagamento.",
+    "infoluckCurrent": {
+      "date": "mai 2026 — atual",
+      "company": "Infoluck Sistemas",
+      "note": "Retorno à empresa",
+      "description": "Desenvolvimento de produtos SaaS para food service: atendente de IA no WhatsApp (Electron, Node.js e Gemini), cardápio digital com Pix confirmado em tempo real, nova geração do ERP (React e Go) e apps Flutter de totem e KDS. Estruturo projetos do zero, monto pipelines de CI/CD com Docker e reviso Pull Requests.",
+      "role": "Desenvolvedor de Software Pleno"
+    },
+    "build": {
+      "date": "jun 2024 — mar 2026",
+      "role": "Desenvolvedor Fullstack",
+      "company": "Build Solutions",
+      "description": "Manutenção e novas funcionalidades em aplicações SaaS para restaurantes. Criei a feature de logística com áreas de entrega desenhadas em polígonos no Google Maps, substituindo o cálculo por linha reta, e um autocomplete do Google Places com debounce que reduziu cerca de 80% das requisições faturáveis. Pagamentos com Pix, Stripe, Google Pay e Apple Pay; chamada de garçom em tempo real via WebSockets; pedidos por QR Code na mesa. Apps em React Native para tablets, totem de autoatendimento, KDS e maquininhas POS integradas a PagBank e Stone."
+    },
+    "infoluckWeb": {
+      "date": "jan 2023 — mar 2024",
+      "role": "Desenvolvedor Web",
+      "company": "Infoluck Sistemas",
+      "description": "Desenvolvi o MenuLuck 2.0, que migrou o cardápio digital para React. Design e desenvolvimento de front-ends com Figma, React e TypeScript. Manutenção de sistemas legados em PHP, jQuery e Delphi integrados a PostgreSQL, incluindo procedures e relatórios."
+    },
+    "infoluckIt": {
+      "date": "nov 2021 — jan 2023",
+      "role": "Técnico de TI",
+      "company": "Infoluck Sistemas",
+      "description": "Suporte a sistemas ERP, PDV e SaaS, com investigação de problemas em SQL/PostgreSQL. Infraestrutura, servidores, impressoras, treinamentos e relatórios. Fui transferido para o time de desenvolvimento após resolver com autonomia demandas técnicas mais complexas."
+    },
+    "beforeDate": "2020 — 2021",
+    "before": "Antes da TI: montagem, calibração e reparo de equipamentos eletrônicos na IBRAMED Brasil."
   },
   "Projects": {
-    "title": "Projetos",
+    "label": "02 — Projetos",
+    "title": "Produtos reais, de agentes de IA a logística.",
+    "viewAll": "Ver todos no GitHub",
     "repository": "Repositório",
-    "unavailable": "Indisponível",
-    "demonstration": "Demonstração",
-    "project1": {
-      "project": "Rick and Morty Curious",
-      "description": "App com informações sobre os personagens, capítulos e locais da série Rick and Morty, com intuito de fazer cacheamento de requisições.",
-      "linkDemo": "https://rick-and-morty-xgj4-luis-renatos-projects.vercel.app/",
-      "linkGithub": "https://github.com/luisrenato02/rick-and-morty"
+    "demo": "Demo",
+    "infoluckWeb": {
+      "kind": "SaaS corporativo",
+      "description": "SaaS de gestão com módulos de vendas, financeiro, estoque, relatórios e cadastro de produtos. Front-end em React e TypeScript a partir de protótipos no Figma."
     },
-    "project2": {
-      "project": "Lr Store",
-      "description": "Loja virtual mobile de eletrônicos com integração de pagamento via Stripe.",
-      "linkDemo": "",
-      "linkGithub": "https://github.com/luisrenato02/FSW-Store"
+    "menuluck": {
+      "kind": "Cardápio digital",
+      "description": "Cardápio digital multi-tenant com delivery, mesa via QR Code e autoatendimento. Criei a versão 2.0 em React e sigo como principal desenvolvedor: Pix confirmado em tempo real via SSE, pedidos agendados, combos, GA4 por estabelecimento e CI/CD com Docker."
     },
-    "project3": {
-      "project": "Portal Infoluck",
-      "description": "Portal fiscal criado para empresa Infoluck Sistemas, para que os contadores de seus clientes façam toda análise e consulta fiscal através de gráficos e relatórios adaptados.",
-      "linkDemo": "",
-      "linkGithub": ""
+    "lrStore": {
+      "kind": "E-commerce",
+      "description": "Loja virtual mobile de eletrônicos com pagamento via Stripe."
     },
-    "project4": {
-      "project": "MenuLuck 2.0",
-      "description": "Cardápio online com seleção de cores a partir do gosto do cliente e atendimento local á mesa via QrCode.",
-      "linkDemo": "",
-      "linkGithub": ""
+    "portal": {
+      "kind": "Portal fiscal",
+      "description": "Portal para contadores dos clientes da Infoluck fazerem análise e consulta fiscal com gráficos e relatórios."
     },
-    "project5": {
-      "project": "Costs",
-      "description": "Gerenciador de projetos e valores com criação de tasks e associação de valores á cada uma delas",
-      "linkDemo": "",
-      "linkGithub": "https://github.com/luisrenato02/Costs"
+    "agentLuck": {
+      "kind": "Agente de IA · WhatsApp",
+      "description": "Atendente de IA para restaurantes no WhatsApp, criado sozinho. App desktop em Electron com o WhatsApp Web embutido e back-end Node.js multi-tenant com Gemini e fallback para OpenAI. Agrupa mensagens em sequência numa só chamada, passa a conversa a um humano quando pedido e controla custo com cache de prompt e limite de tokens por loja. Redis para idempotência e lock distribuído, pedidos em tempo real via SSE, atualização automática e Sentry."
     },
-    "project6": {
-      "project": "Infoluck Web",
-      "description": "Saas para gerenciamento de empresas com módulos de vendas, financeiro, estoque e relatórios, cadastro de produtos, etc.",
-      "linkDemo": "",
-      "linkGithub": ""
+    "infoluckErp": {
+      "kind": "SaaS · front-end e API",
+      "description": "Nova geração do ERP da Infoluck. Estruturei o front-end do zero (ports & adapters, mock-first, Vitest, CI/CD) e construí caixa, financeiro e composição de produtos, com remoção de fundo de imagens no navegador via WebAssembly. Na API em Go: permissões e módulos por tipo de empresa."
+    },
+    "timerRodeo": {
+      "kind": "Tempo real",
+      "description": "Cronômetro oficial de montaria que transmite o tempo ao telão via WebSocket a cada 50 ms, com correção de imprecisão do timer, reconexão com backoff e 47 testes, incluindo golden tests."
+    },
+    "kiosk": {
+      "kind": "Flutter · food service",
+      "description": "Apps de autoatendimento que desenvolvi e mantive na Build Solutions e na Infoluck: totem com pagamento em maquininha, painel de cozinha (KDS) atualizado por WebSocket e painel de senhas para o cliente."
+    },
+    "post": "Post no LinkedIn",
+    "deliveryZones": {
+      "kind": "Logística · Build Solutions",
+      "description": "Áreas de entrega desenhadas em polígonos pelo estabelecimento, no lugar do cálculo por linha reta que errava taxas em morros e rodovias. Autocomplete próprio do Google Places com debounce reduziu cerca de 80% das requisições faturáveis."
+    }
+  },
+  "Education": {
+    "label": "03 — Formação",
+    "title": "Base acadêmica e estudo contínuo.",
+    "degreeLabel": "Graduação · 2021 — 2023",
+    "degree": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+    "university": "Universidade São Francisco",
+    "certsTitle": "Universidade São Francisco · Certificações intermediárias",
+    "coursesTitle": "Cursos livres",
+    "close": "Fechar",
+    "certificateAlt": "Certificado: {name}",
+    "certs": {
+      "solutions": "Programação de Computadores: Soluções Algorítmicas",
+      "networks": "Redes de Computadores",
+      "programming": "Programação de Computadores",
+      "infra": "Infraestrutura de Redes e Computadores",
+      "modeling": "Desenvolvimento de Software: Modelagem e Orientação a Objetos",
+      "software": "Desenvolvimento de Software"
+    },
+    "courses": {
+      "logic": "Lógica de Programação",
+      "js": "JavaScript",
+      "sql": "SQL",
+      "html": "HTML e CSS",
+      "english": "Inglês"
     }
   },
   "Contact": {
-    "title": "Contatos",
-    "tell": "Telefone",
-    "development": "Desenvolvido por Luís Renato Toniati com",
-    "repository": "Repositório do site aqui!"
+    "label": "04 — Contato",
+    "title": "Tem um projeto ou vaga em mente? Vamos conversar.",
+    "source": "Código-fonte deste site"
   }
 }

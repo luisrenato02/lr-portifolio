@@ -1,181 +1,137 @@
 {
-  "Navbar": {
-    "aboutMe": "About",
-    "certifications": "Certifications",
+  "Nav": {
+    "experience": "Experience",
     "projects": "Projects",
-    "contact": "Contact"
-  },
-  "About": {
-    "hello": "Hello, my name is Luís Renato Toniati!",
-    "about": "About me",
-    "description": "Front-end Developer focused on React, Next.js, and modern API integrations such as Firebase and Stripe. I have hands-on experience delivering production-ready applications, including online menu systems with automatic printing on smart devices and support for Apple Pay and Google Pay. Skilled at leading technical projects from scratch, solving critical bugs, and adapting solutions under technical constraints. I'm looking for opportunities where I can apply my technical expertise with greater purpose, in collaborative teams that value autonomy and real impact.",
-    "buttonWpp": "Talk to me",
-    "buttonCv": "Download my CV"
-  },
-  "Tabs": {
-    "expirience": "Experience",
     "education": "Education",
-    "skills": "Skills",
-    "experience1": {
-      "date": "October 2024 - currently",
-      "title": "Fullstack Developer – Build Solutions",
-      "description": "Maintained and developed new features for SaaS applications. Integrated online payment APIs including Stripe, Google Pay, and Apple Pay. Built React Native applications, such as a digital menu for tablets and POS terminal apps with PagBank and Stone payment integration."
-    },
-    "experience2": {
-      "date": "January 2023 - March 2024",
-      "title": "Web Developer - Infoluck Systems",
-      "description": "Design and develop the front-end of applications using Figma, React, TypeScript, among other technologies. Maintain legacy applications that use PHP, JQuery, HTML, CSS, JavaScript. Modify reports using PL/SQL."
-    },
-    "experience3": {
-      "date": "November 2021 - January 2023",
-      "title": "IT Technician - Infoluck Systems",
-      "description": "Support customers using the system, maintenance of printers, general infrastructure, Windows, database, training, report creation, server maintenance."
-    },
-    "experience4": {
-      "date": "February 2021 - November 2021",
-      "title": "Electronic Technical Assistant - IBRAMED Brazil",
-      "description": "Calibrate electronic boards and equipment, repair and replace damaged electronic components in equipment, record and respond to equipment and board defects in the manufacturing system, recommending corrective, preventive actions and improvements in test devices."
-    },
-
-    "experience5": {
-      "date": "January 2020 - February 2021",
-      "title": "Electronic Assembler - IBRAMED Brazil",
-      "description": "Perform inspection, soldering, and assembly of electronic boards in equipment, assemble electronic equipment in production lines and cells, assist the team in implementing improvements during the production process."
-    },
-    "education1": {
-      "date": "2021 - 2023",
-      "title": "São Francisco University",
-      "description": "Higher Education Technology (CST), Systems Analysis and Develo01pment."
-    },
-    "education2": {
-      "date": "2017 - 2019",
-      "title": "ETEC - Technical School of São Paulo",
-      "description": "Technical course in electronics integrated with high school."
-    },
-    "education3": {
-      "date": "March 2025 - Ongoing",
-      "title": "English Course from Intermediate to Fluency",
-      "description": "Excellent Global"
-    },
-    "education4": {
-      "date": "May 2024",
-      "title": "English Course for Beginners - Module 1: Beginners - Complete [VIP]",
-      "description": "COURSE IN VIDEO"
-    },
-    "education5": {
-      "date": "December 2022",
-      "title": "Computer Programming: Algorithmic Solutions",
-      "description": "SÃO FRANCISCO UNIVERSITY"
-    },
-
-    "education6": {
-      "date": "July 2022",
-      "title": "Software Development: Database Modeling and Object-Oriented Programming",
-      "description": "SÃO FRANCISCO UNIVERSITY"
-    },
-    "education7": {
-      "date": "July 2022",
-      "title": "Software Development",
-      "description": "SÃO FRANCISCO UNIVERSITY"
-    },
-    "education8": {
-      "date": "July 2022",
-      "title": "Computer Networks Infrastructure",
-      "description": "SÃO FRANCISCO UNIVERSITY"
-    },
-
-    "education9": {
-      "date": "July 2022",
-      "title": "Html5 and Css3",
-      "description": "COURSE IN VIDEO"
-    },
-
-    "education10": {
-      "date": "July 2022",
-      "title": "JavaScript",
-      "description": "COURSE IN VIDEO"
-    },
-    "education11": {
-      "date": "February 2022",
-      "title": "MySQL",
-      "description": "COURSE IN VIDEO"
-    },
-
-    "education12": {
-      "date": "December 2021",
-      "title": "Computer Programming",
-      "description": "SÃO FRANCISCO UNIVERSITY"
-    },
-    "education13": {
-      "date": "July 2021",
-      "title": "Information Technology Support: Basic Hardware and Applications",
-      "description": "SÃO FRANCISCO UNIVERSITY"
-    },
-    "education14": {
-      "date": "July 2021",
-      "title": "IT Support",
-      "description": "SÃO FRANCISCO UNIVERSITY"
-    },
-    "education15": {
-      "date": "September 2020 - October 27, 2020",
-      "title": "Algorithms and Programming Logic",
-      "description": "GEEK UNIVERSITY"
-    },
-    "education16": {
-      "date": "2015 - 2017",
-      "title": "Technology and Management",
-      "description": "VIA BRASIL"
-    }
+    "contact": "Contact",
+    "language": "Language",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
-  "Certifications": {
-    "title": "Certificates"
+  "Hero": {
+    "status": "Open to new opportunities",
+    "hello": "Hi, I'm Luís Renato Toniati —",
+    "title": "Full stack developer turning business problems into software running in",
+    "titleAccent": "production",
+    "description": "I work end to end: web, mobile and desktop interfaces, APIs, databases, AI agents and integrations with payments, webhooks and real-time channels (WebSockets and SSE). I enjoy solving real problems with maintainable software and solid architecture.",
+    "talk": "Talk to me",
+    "cv": "Download CV",
+    "currently": "Currently",
+    "currentRole": "Infoluck Sistemas",
+    "photoAlt": "Photo of Luís Renato Toniati"
+  },
+  "Stack": {
+    "languages": "Languages",
+    "frontend": "Front-end & mobile",
+    "backend": "Back-end & data",
+    "integrations": "Integrations",
+    "quality": "Quality & DevOps"
+  },
+  "Experience": {
+    "label": "01 — Experience",
+    "title": "Software running in production, for real companies.",
+    "subtitle": "Almost four years building SaaS, mobile apps and payment integrations.",
+    "infoluckCurrent": {
+      "date": "May 2026 — present",
+      "company": "Infoluck Sistemas",
+      "note": "Returned to the company",
+      "description": "Building SaaS products for food service: a WhatsApp AI assistant (Electron, Node.js and Gemini), a digital menu with real-time Pix payment confirmation, the next-generation ERP (React and Go) and Flutter kiosk and KDS apps. I set up projects from scratch, build CI/CD pipelines with Docker and review Pull Requests.",
+      "role": "Mid-level Software Developer"
+    },
+    "build": {
+      "date": "Jun 2024 — Mar 2026",
+      "role": "Fullstack Developer",
+      "company": "Build Solutions",
+      "description": "Maintenance and new features for restaurant SaaS applications. Built a logistics feature with delivery zones drawn as polygons on Google Maps, replacing straight-line distance pricing, and a debounced Google Places autocomplete that cut billable requests by about 80%. Payments with Pix, Stripe, Google Pay and Apple Pay; real-time waiter calls over WebSockets; QR Code table ordering. React Native apps for tablets, self-service kiosk, KDS and POS terminals integrated with PagBank and Stone."
+    },
+    "infoluckWeb": {
+      "date": "Jan 2023 — Mar 2024",
+      "role": "Web Developer",
+      "company": "Infoluck Sistemas",
+      "description": "Built MenuLuck 2.0, which moved the digital menu to React. Designed and built front-ends with Figma, React and TypeScript. Maintained legacy PHP, jQuery and Delphi systems backed by PostgreSQL, including procedures and reports."
+    },
+    "infoluckIt": {
+      "date": "Nov 2021 — Jan 2023",
+      "role": "IT Technician",
+      "company": "Infoluck Sistemas",
+      "description": "Support for ERP, POS and SaaS systems, investigating issues with SQL/PostgreSQL. Infrastructure, servers, printers, training and reports. Moved to the development team after independently solving complex technical issues."
+    },
+    "beforeDate": "2020 — 2021",
+    "before": "Before IT: assembly, calibration and repair of electronic equipment at IBRAMED Brasil."
   },
   "Projects": {
-    "title": "Projects",
+    "label": "02 — Projects",
+    "title": "Real products, from AI agents to logistics.",
+    "viewAll": "See all on GitHub",
     "repository": "Repository",
-    "unavailable": "Unavailable",
-    "demonstration": "Demonstration",
-    "project1": {
-      "project": "Rick and Morty Curious",
-      "description": "App with information about the characters, episodes, and locations of the Rick and Morty series, aiming to cache requests.",
-      "linkDemo": "https://rick-and-morty-pi-nine-12.vercel.app/",
-      "linkGithub": "https://github.com/luisrenato02/rick-and-morty"
+    "demo": "Demo",
+    "infoluckWeb": {
+      "kind": "Business SaaS",
+      "description": "Business management SaaS with sales, finance, inventory, reports and product catalog modules. React and TypeScript front-end built from Figma prototypes."
     },
-    "project2": {
-      "project": "Lr Store",
-      "description": "Mobile electronics store with payment integration via Stripe.",
-      "linkDemo": "",
-      "linkGithub": "https://github.com/luisrenato02/FSW-Store"
+    "menuluck": {
+      "kind": "Digital menu",
+      "description": "Multi-tenant digital menu with delivery, QR Code table service and self-service. I built version 2.0 in React and remain its main developer: Pix confirmed in real time over SSE, scheduled orders, combos, per-merchant GA4 and Docker CI/CD."
     },
-    "project3": {
-      "project": "Infoluck Portal",
-      "description": "Fiscal portal created for Infoluck Systems, so that the accountants of their clients can do all the fiscal analysis and consultation through adapted graphs and reports.",
-      "linkDemo": "",
-      "linkGithub": ""
+    "lrStore": {
+      "kind": "E-commerce",
+      "description": "Mobile electronics store with Stripe payments."
     },
-    "project4": {
-      "project": "MenuLuck 2.0",
-      "description": "Online menu with color selection based on customer preference and local table service via QR Code.",
-      "linkDemo": "",
-      "linkGithub": ""
+    "portal": {
+      "kind": "Tax portal",
+      "description": "Portal where the accountants of Infoluck's clients run tax analysis and queries with charts and reports."
     },
-    "project5": {
-      "project": "Costs",
-      "description": "Project and cost manager with task creation and value association to each of them.",
-      "linkDemo": "",
-      "linkGithub": "https://github.com/luisrenato02/Costs"
+    "agentLuck": {
+      "kind": "AI agent · WhatsApp",
+      "description": "AI customer-service assistant for restaurants on WhatsApp, built solo. An Electron desktop app with WhatsApp Web embedded and a multi-tenant Node.js back-end with Gemini and an OpenAI fallback. It batches back-to-back messages into one call, hands off to a human on request and controls cost with prompt caching and per-store token caps. Redis for idempotency and distributed locks, real-time orders over SSE, auto-update and Sentry."
     },
-    "project6": {
-      "project": "Infoluck Web",
-      "description": "SaaS for business management with sales, finance, inventory, and reports modules, product registration, etc.",
-      "linkDemo": "",
-      "linkGithub": ""
+    "infoluckErp": {
+      "kind": "SaaS · front-end and API",
+      "description": "Infoluck's next-generation ERP. I set up the front-end from scratch (ports & adapters, mock-first, Vitest, CI/CD) and built cash register, finance and product composition, with in-browser image background removal via WebAssembly. On the Go API: permissions and modules gated by company type."
+    },
+    "timerRodeo": {
+      "kind": "Real time",
+      "description": "Official bull-riding timer that streams the clock to the arena scoreboard over WebSocket every 50 ms, with timer-drift correction, backoff reconnection and 47 tests, including golden tests."
+    },
+    "kiosk": {
+      "kind": "Flutter · food service",
+      "description": "Self-service apps I built and maintained at Build Solutions and Infoluck: a kiosk with card-terminal payment, a kitchen display (KDS) refreshed over WebSocket and an order-number board for customers."
+    },
+    "post": "LinkedIn post",
+    "deliveryZones": {
+      "kind": "Logistics · Build Solutions",
+      "description": "Delivery zones drawn as polygons by the merchant, replacing straight-line pricing that got fees wrong across hills and highways. A custom debounced Google Places autocomplete cut billable requests by about 80%."
+    }
+  },
+  "Education": {
+    "label": "03 — Education",
+    "title": "Academic background and continuous learning.",
+    "degreeLabel": "Degree · 2021 — 2023",
+    "degree": "Associate Degree in Systems Analysis and Development",
+    "university": "Universidade São Francisco",
+    "certsTitle": "Universidade São Francisco · Intermediate certifications",
+    "coursesTitle": "Online courses",
+    "close": "Close",
+    "certificateAlt": "Certificate: {name}",
+    "certs": {
+      "solutions": "Computer Programming: Algorithmic Solutions",
+      "networks": "Computer Networks",
+      "programming": "Computer Programming",
+      "infra": "Network and Computer Infrastructure",
+      "modeling": "Software Development: Modeling and Object Orientation",
+      "software": "Software Development"
+    },
+    "courses": {
+      "logic": "Programming Logic",
+      "js": "JavaScript",
+      "sql": "SQL",
+      "html": "HTML and CSS",
+      "english": "English"
     }
   },
   "Contact": {
-    "title": "Contacts",
-    "tell": "Phone",
-    "development": "Developed by Luís Renato Toniati with",
-    "repository": "Website repository here!"
+    "label": "04 — Contact",
+    "title": "Have a project or role in mind? Let's talk.",
+    "source": "Source code of this site"
   }
 }

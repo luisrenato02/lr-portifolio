@@ -7,16 +7,25 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    typography: () => ({}),
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        ink: "#0B0C0E",
+        surface: "#121316",
+        line: "#1C1E23",
+        edge: "#24262C",
+        "edge-strong": "#2A2D33",
+        "edge-hover": "#3A3D45",
+        fg: "#EDEDEF",
+        soft: "#C9CBD1",
+        muted: "#A1A3AB",
+        accent: "#B6F23E",
+      },
+      fontFamily: {
+        sans: ["Geist", "ui-sans-serif", "system-ui", "sans-serif"],
+        mono: ["Geist Mono", "ui-monospace", "monospace"],
       },
     },
   },
   plugins: [],
-  darkMode: "class",
 };
 export default config;
