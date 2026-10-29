@@ -3,7 +3,9 @@ import { getMessages } from "next-intl/server";
 import "./globals.css";
 import { Metadata } from "next";
 
+// The social preview image comes from ./opengraph-image.tsx
 export const metadata: Metadata = {
+  metadataBase: new URL("https://lr-portifolio.vercel.app"),
   title: {
     template: "Luís Renato Toniati(@luistoniati02)",
     absolute: "Luís Renato Toniati(@luistoniati02)",
@@ -11,18 +13,15 @@ export const metadata: Metadata = {
   description: "Portfolio de Luís Renato Toniati(@luistoniati02)",
   openGraph: {
     title: "Luís Renato Toniati",
-    description: "FullStack / Developer / Brazil / luisrtoniati@gmail.com",
-    url: "https://lr-portifolio.vercel.app",
+    description:
+      "Desenvolvedor full stack · React, TypeScript, Node.js, Go e Flutter · luisrtoniati@gmail.com",
+    url: "https://lr-portifolio.vercel.app/pt",
     siteName: "Luís Renato - Portfólio",
-    images: [
-      {
-        url: "https://i.imgur.com/6woKyaW.jpeg",
-        width: 1200,
-        height: 630,
-      },
-    ],
     locale: "pt_BR",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
   },
   robots: {
     index: true,
